@@ -1,0 +1,1476 @@
+{
+  "schema": "gallery-assets/1",
+  "id": "gallery-assets-v3",
+  "archive": {
+    "url": "https://github.com/RazvanManolache/dlss5-quality-vs-performance-gallery/releases/download/assets-v3/gallery-assets-v3.zip",
+    "bytes": 1019641764,
+    "sha256": "cc7f80e03ef63614d9c046da590c9726a192044ee7234345acbab34d05ccba4f"
+  },
+  "files": [
+    {
+      "path": "asset_licenses/CREDITS.md",
+      "bytes": 3929,
+      "sha256": "9ceabd13bd8c6f237e381e3fc05a0035a3794ba127e3050e056b57ea46f3a905"
+    },
+    {
+      "path": "asset_licenses/Exhibit-credits.md",
+      "bytes": 1653,
+      "sha256": "ef415d63c12cdbdbabde6a8f600a06387d1737fab49de9a6568465c5885e00eb"
+    },
+    {
+      "path": "asset_licenses/LeePerrySmith-License.txt",
+      "bytes": 364,
+      "sha256": "7cf4da43a6ae6d32f7f7d063fe129a19468af6f4fe7c53b937f83959709fcb50"
+    },
+    {
+      "path": "asset_licenses/Rocketbox-MIT.md",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "path": "asset_licenses/Rocketbox-crowd-sources.json",
+      "bytes": 78983,
+      "sha256": "8f789d0a95b2a91f78a0e5c5393eb73bc2a584444063fdf3789feffd5281674f"
+    },
+    {
+      "path": "asset_licenses/Rocketbox-source-manifest.json",
+      "bytes": 12215,
+      "sha256": "55a21fa35d1f77e60e967bca9d90fcdb9eb67552fcc19f6ffb013264894c5173"
+    },
+    {
+      "path": "assets/beauty_maps002/Business_Female_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "ef549a7b0faaa7e82e8919f64b2810985227e3bdf32a4c7b0f7a1c5da704dfe0"
+    },
+    {
+      "path": "assets/beauty_maps002/Business_Female_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "cadbc9293abe33eec0b661c30a59be05e445cdaa51fb4d72b4e8fa85bce4bb10"
+    },
+    {
+      "path": "assets/beauty_maps002/Business_Female_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "347082261327d99c3483f6d49652801a5b81864fdee692b6876fc179ed3b8813"
+    },
+    {
+      "path": "assets/beauty_maps002/Deer_Roe_Tabby_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "fd32f701df72e0ed4d9c23ab5f3ae28ead8c66e2d8dff510b83c7a37d56e632c"
+    },
+    {
+      "path": "assets/beauty_maps002/Deer_Roe_Tabby_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "6bd487e8b3f48a9d30981e8a0bf3f1a41521da0b765541b1f5afb01c8b22fc4c"
+    },
+    {
+      "path": "assets/beauty_maps002/Deer_Roe_Tabby_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "5a3a2510d1593cba6346245e49ef74842ffdbcf26b68e04f6f8e5fd963e10772"
+    },
+    {
+      "path": "assets/beauty_maps002/Dog_Beagle_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "26c4625ecae968094c92e5afdda10b51fe352785dad39e188e3bdd999e307df6"
+    },
+    {
+      "path": "assets/beauty_maps002/Dog_Beagle_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "6bd487e8b3f48a9d30981e8a0bf3f1a41521da0b765541b1f5afb01c8b22fc4c"
+    },
+    {
+      "path": "assets/beauty_maps002/Dog_Beagle_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "7bc2b23ad6e94819b76bdc60c53e282fbf7d857e05fc4d5b7a434ff00e8832ec"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "c81b5a1e75e11de455b48b2a0bce75708e14258c791f4a6cd3161a6110bc13dc"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "2fe46401c0a76b3a38b99cf4013985164e2cad0647a89e2dec82245b8a7b094c"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "6b77a19a7631cb374b950ce2a4356d5441be10c88ddbb2d7ce82a6f70ee65251"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_02_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "a85a8917aff0216ce2a3d07e1f8106f6b1d3c01f68842161f9eac0b579116015"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_02_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "8d2d788986dcc236189ae47b406e973df3cb919501f16750b6664a6f49ce25f7"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_02_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "9838557af578c76cf4dae0d06ae286f1aa85476afb588494cb87deca3c8446bf"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_05_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "815c1bfb2127111ff1fb7396222c29475b854220e211d2af52b0d4112acc3dc0"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_05_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "abd4b8c346313d90785a5e98cc921f9c969fdb34705d6b51d0d19336dad72953"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_05_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "13b073b87ec90ee810344fccafcff2ee6b6d361c82eac41a7bfcb07fdc847869"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_08_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "ae9359e0c0303a3d69b07f9bdb1c2747b656afd344542a5381ed7ceb74d97fe6"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_08_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "e7538e8b0ad4c092971becb5a10ffa168a740550fe87b1d90eb7219bbce02f14"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_08_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "292afd2f0ea50ac9c2180c2473ba94aa5607087662f4daaedc7438bba883c5a8"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_10_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "d1ef99b60b331d8e9126398416e0a8db3babda462ce841e8179547424620d08f"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_10_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "6c30942f5554566737702d8a540100c12032a6e98bf21aeae95cfc3220b793d7"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_10_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "49be9c54416b80e04da5d30ff1ce4c4c47635cf8da9b877463e36d891bec3cac"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_14_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "a1bb87537c86ded4a4896e5ecaccec4c37856d412fcc1e063eed3e26cd2ed9a6"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_14_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "c95d1005d93a5915c1e3cbed781288e6ec571bc5aaa8a2d58689136a2e1de78a"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Adult_14_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "0013d8ae78b689c622583863e401f99014da5d9be997e6efac6f731569261f42"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Child_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "e4df370c4d55bfda50d205a853ede72599dc7fa6a7de2472c362c5e797f0509d"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Child_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "959e908ed7981214bac1ae518ff554e40e0af0903522c28337a21d07b6098611"
+    },
+    {
+      "path": "assets/beauty_maps002/Female_Child_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "f6b589a75ff6816ebac6b6f802fc50a62e775a952e0de46c6c9fb4b24eb6f114"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "d6b6287d708bc994f7c86d273687d5558d10bafdf24ff3ddd70b623e46a4ccad"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "9800ae35d3cef26b89de5adacc48b6c07fa51f66546730e1f4a9cfaf8156dc10"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "65205ecd7ec7f9ad2f612f5c35b0b4d34cafb00c0d19bb1687d3acd8ed055b38"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_02_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "83db15b697f53b09324a7cceedab6900739a4116d9a1e80a303c67dd0d605c7f"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_02_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "fff3dfb4444428e89f493246959f44ef481ece7ad807a6e65b991942914a2f5f"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_02_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "99b7c5585da42ccaa8afb6e82ecedc81c833776e8c1b3c6e9c2c7b2992336425"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_04_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "b34f623a5a2075b93b14a40eb68158bc00f14b879e26ece72bdeee2a7aa9ecbf"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_04_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "2ce3050db4625ac93363726c975fc1e033629409a22f2f1911416029fc94ba8a"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_04_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "2a2decba0e5ed052bc5f38c9897d7066e0a451d50e9ef80d6904d5419725e331"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_08_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "9b3ef9f2d26af526e4e1e9dd5b2a496a8e9c06c0648899ff9b3be3db3f42fdcf"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_08_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "0d9686d5102f6e2c791571edc48a44d05051295267112ed3744189f09200f062"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_08_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "8d39ce8743b5cbaaf079a0d74e9c6d026ca8913eb236f67b604b3f10327bd5c4"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_12_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "2d485a24a35fdb6e4b6956f498d0e0e2cf92f32763aca4f2da48a36424be2a7f"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_12_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "31cd055608e3531e15349c37e2d4687308f1afa096a11b460f6885c8944d91d7"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_12_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "c2f29fefcc62c8acec593df35d4648645429f376b6974f7bf48aef2ab1919da2"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_18_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "a82ff01c52fc2a44bf3a514fcacc2fc966b2202dc44f849558d9288ea88f6a50"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_18_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "cfa8e4349e0481b6d11d259e9e22ccd9e13d3a9c3d8172bc33240f2c1c135a2e"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Adult_18_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "e88397cc4e950883424f994d73083b719c349ba0883eb570c1dd90b5f7fbbe58"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Child_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "6491fdb12409561e53e4e2bc09bf1872c42a9ff573b6e674a7fae2110e715df6"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Child_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "9257a11a3281c3fc436d8e0be0de89bf46abd1bb70c0bde01ffea2a80b77578a"
+    },
+    {
+      "path": "assets/beauty_maps002/Male_Child_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "006df425c5a05c69dd29928a4a3535d11992ff2afb741e4086d8c9cbb4549f77"
+    },
+    {
+      "path": "assets/beauty_maps002/Security_Male_01_color.rgba.mips",
+      "bytes": 67108812,
+      "sha256": "280511adab652bd61b267069a55417c12cc114aa84daedaae052eb4cb7b34403"
+    },
+    {
+      "path": "assets/beauty_maps002/Security_Male_01_normal.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "1a42b2dc693a27da38b41369198f4f3c04e1c895aedcaa64952d59baaaca9564"
+    },
+    {
+      "path": "assets/beauty_maps002/Security_Male_01_rough.rgba.mips",
+      "bytes": 16777164,
+      "sha256": "9b48cb028e70b46a80e592b410dcb6fa5ae110868d1d61651e582684321cb617"
+    },
+    {
+      "path": "assets/beauty_maps002/antique_ceramic_vase_01_color.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "ffe5cc6daf4b0617f47583b58497bbfb303072bda53aab774c9dd5fe04734ab7"
+    },
+    {
+      "path": "assets/beauty_maps002/antique_ceramic_vase_01_normal.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "6ad0d8ca52756e678803352e1a10d31e322ec006d73018e4304067b45666089e"
+    },
+    {
+      "path": "assets/beauty_maps002/antique_ceramic_vase_01_rough.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "f66205fbaa690e70a7780e5be291ed34255807c9072bc34dbe6695bf52e29c0b"
+    },
+    {
+      "path": "assets/beauty_maps002/chinese_armchair_color.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "4075868762d479b5660bf8ec8ea27e821405137201f71d94fcb4540f782b6279"
+    },
+    {
+      "path": "assets/beauty_maps002/chinese_armchair_normal.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "17e303303df9ba27d3a042b28c6f93eb454f1f56d00c4a955335a324420826a7"
+    },
+    {
+      "path": "assets/beauty_maps002/chinese_armchair_rough.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "fe160d7cf29c643038cba267e31eee778721135e0968b33f2444c64169ea8575"
+    },
+    {
+      "path": "assets/beauty_maps002/horse_statue_01_color.rgba.mips",
+      "bytes": 11184780,
+      "sha256": "c78b882944002e2ea64086afabdfc23388ff2afca81d6e9c936597c22f48efce"
+    },
+    {
+      "path": "assets/beauty_maps002/horse_statue_01_normal.rgba.mips",
+      "bytes": 11184780,
+      "sha256": "77c9fd495ab07785ab555f01e5d5cfa6ba508d20414d1702b9c0e61706ea92aa"
+    },
+    {
+      "path": "assets/beauty_maps002/horse_statue_01_rough.rgba.mips",
+      "bytes": 11184780,
+      "sha256": "a3ecd10e085e583dce815a4ea82ed2322c16c7201dfd198b6d91ab33e9c2ebec"
+    },
+    {
+      "path": "assets/beauty_maps002/marble_color.rgba.mips",
+      "bytes": 22369612,
+      "sha256": "cd55a3c69ca055c47365f8425494d674608444a682fcf7cbd34e54f9507bcfe9"
+    },
+    {
+      "path": "assets/beauty_maps002/marble_color_low.rgba.mips",
+      "bytes": 5452,
+      "sha256": "5a89d9aaccf2335ff20aff53e2ed029e9c3d3b7ae7a483538a5644f2bd511317"
+    },
+    {
+      "path": "assets/beauty_maps002/marble_normal.rgba.mips",
+      "bytes": 22369612,
+      "sha256": "a2de809ee5c0d52810e589b77badab2ece0d32f9c58275afc2a73d7246ad9a12"
+    },
+    {
+      "path": "assets/beauty_maps002/marble_rough.rgba.mips",
+      "bytes": 22369612,
+      "sha256": "1c6df6087973b37b4b58b878038f0effb0c187a2c86a33d7e5015993683663ef"
+    },
+    {
+      "path": "assets/beauty_maps002/skin_color.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "845497b7a9236ba43ea28697b909a708d7af0bade27712bf5c1fbe7b9c882c0b"
+    },
+    {
+      "path": "assets/beauty_maps002/skin_color_low.rgba.mips",
+      "bytes": 5452,
+      "sha256": "4a9163d44f052e70af072971b5fa007ef8cbd655277088f0da9be1f24a815ed6"
+    },
+    {
+      "path": "assets/beauty_maps002/skin_normal.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "0fb729b564b73215b83b11bf6840b2450b677bc825c2d3aecbd3fff389fc76c6"
+    },
+    {
+      "path": "assets/beauty_maps002/skin_spec.rgba.mips",
+      "bytes": 5592396,
+      "sha256": "bb1b08280def9feb082af57ec1bc72408d62848eae729179963dcb2011f7a3f2"
+    },
+    {
+      "path": "assets/beauty_maps002/vintage_video_camera_color.rgba.mips",
+      "bytes": 11184780,
+      "sha256": "46a47f37c9715db9520217d8d5e51765f6a5fa9ed6fd17a9c8c6096778e68960"
+    },
+    {
+      "path": "assets/beauty_maps002/vintage_video_camera_normal.rgba.mips",
+      "bytes": 11184780,
+      "sha256": "141e0ac60d4b546b2865798cee02c85800ddffcdcc02d89f85c486b27936014c"
+    },
+    {
+      "path": "assets/beauty_maps002/vintage_video_camera_rough.rgba.mips",
+      "bytes": 11184780,
+      "sha256": "54fdafdcd8584321a50a2dd4afdecaf717fe7af99520452ff374d1c05b2c2d14"
+    },
+    {
+      "path": "assets/living_people/Business_Female_01.bones",
+      "bytes": 491520,
+      "sha256": "fb4fc4de589e3ceb115af1886ab3fdab4bfe9971d245d562726e045573c78e49"
+    },
+    {
+      "path": "assets/living_people/Business_Female_01.skin",
+      "bytes": 11495760,
+      "sha256": "bacc046307d39e58e6882e66826cc97ebfa11000802c5e271a3fb302e0ff2e87"
+    },
+    {
+      "path": "assets/living_people/Business_Female_01_lod0.mesh",
+      "bytes": 1291108,
+      "sha256": "81612360d568cc9f6a43ed4bb865a5d26c4b8455fb2489f11bbc98602316f1db"
+    },
+    {
+      "path": "assets/living_people/Business_Female_01_lod1.mesh",
+      "bytes": 957604,
+      "sha256": "527e246e96ee6411343969603833d2ad92cc4537b7c0da7be5b22816a777329d"
+    },
+    {
+      "path": "assets/living_people/Business_Female_01_lod2.mesh",
+      "bytes": 757444,
+      "sha256": "acfdbf017e54b6bef8605e6e497a38bf059d9eddc8919e5bb4617760565b7a19"
+    },
+    {
+      "path": "assets/living_people/Business_Female_01_lod3.mesh",
+      "bytes": 624100,
+      "sha256": "9905ba6124bc5d8253b6fc75c14c1f4e12821c1626fc75eadb28843928840e23"
+    },
+    {
+      "path": "assets/living_people/Business_Female_01_rig.json",
+      "bytes": 4472,
+      "sha256": "0f37c7ae7ef60e46d22797283b238db7d349fc85189a00a03f7433525a4a82e9"
+    },
+    {
+      "path": "assets/living_people/Deer_Roe_Tabby_01.bones",
+      "bytes": 95232,
+      "sha256": "54306166fd543943adede387a0d9bf3bce4d8f72afbdf7aefc60dea7b9835a60"
+    },
+    {
+      "path": "assets/living_people/Deer_Roe_Tabby_01.skin",
+      "bytes": 2010960,
+      "sha256": "6c7476187126dab5a7939348bae4264cfbc7412b8b051c3962362cc071f26ec5"
+    },
+    {
+      "path": "assets/living_people/Deer_Roe_Tabby_01_lod0.mesh",
+      "bytes": 329188,
+      "sha256": "f37b816ef57c60c3e826d160d1bca29078579fc4e4fbae995c337e166340c322"
+    },
+    {
+      "path": "assets/living_people/Deer_Roe_Tabby_01_lod1.mesh",
+      "bytes": 180868,
+      "sha256": "47c54adf890757d7754ed759207f85851b1c04c8b01d7cff0b2b0bdcf84b1512"
+    },
+    {
+      "path": "assets/living_people/Deer_Roe_Tabby_01_lod2.mesh",
+      "bytes": 92164,
+      "sha256": "689850e156b7b27b2db64ed0e0e0ca3bfe94eaba65a7cbc6ce6377f9fbeb22b1"
+    },
+    {
+      "path": "assets/living_people/Deer_Roe_Tabby_01_lod3.mesh",
+      "bytes": 32836,
+      "sha256": "f72ad6c4ccee26d6c73615e609b9f8dfcd1dcbc33c32e7200f8c77e6702440fb"
+    },
+    {
+      "path": "assets/living_people/Deer_Roe_Tabby_01_rig.json",
+      "bytes": 1696,
+      "sha256": "118d204d1ce4239b02c5a5bee3e3b3333c95282f07298a196aa56e2a1c18d0bd"
+    },
+    {
+      "path": "assets/living_people/Dog_Beagle_01.bones",
+      "bytes": 107520,
+      "sha256": "cfee201670b1797a01dd60b54391c35d124da5dd42e2a4ab42804bd36c914aa4"
+    },
+    {
+      "path": "assets/living_people/Dog_Beagle_01.skin",
+      "bytes": 2553600,
+      "sha256": "da480930b2129423bfee7cbb9f632b0674cf50fb7cd5a3a6f410c773eb205d00"
+    },
+    {
+      "path": "assets/living_people/Dog_Beagle_01_lod0.mesh",
+      "bytes": 417892,
+      "sha256": "f8f57b5dda6a764db51e0539b55ac3ea80fb4465a14209bf2750dac82a17f5e0"
+    },
+    {
+      "path": "assets/living_people/Dog_Beagle_01_lod1.mesh",
+      "bytes": 229828,
+      "sha256": "562c871e227427a008ae6997780e948cb2b3fdcf758c7034fd73624f3341276a"
+    },
+    {
+      "path": "assets/living_people/Dog_Beagle_01_lod2.mesh",
+      "bytes": 116932,
+      "sha256": "5527157fc23e0f80bf570b0e20068e3aad63ee1905ec2e4f7fc3f716a10c619c"
+    },
+    {
+      "path": "assets/living_people/Dog_Beagle_01_lod3.mesh",
+      "bytes": 41764,
+      "sha256": "f5088743e97421935f7f3a17b4f850c4ef922c13ff9ddb1e1b31709259140381"
+    },
+    {
+      "path": "assets/living_people/Dog_Beagle_01_rig.json",
+      "bytes": 1712,
+      "sha256": "557d052806b79c6a42a3dd8a948017f13c05e7cc7baafb967c78e84fa1e27c04"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_01.bones",
+      "bytes": 491520,
+      "sha256": "46710fd23d2371bb5193ea31ebb7ee74caf09db72d7e347c61da8ae50fe02e37"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_01.skin",
+      "bytes": 11555040,
+      "sha256": "75afbb057bea2cee569a72bc26a5b22d92834a2ba1aea29b6a90e1a0787ff9e5"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_01_lod0.mesh",
+      "bytes": 1257412,
+      "sha256": "fc7b2f3ab6494a1dc20eb50c647e52acb143f6a21f43dfe5a9bf7dc21ef447c5"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_01_lod1.mesh",
+      "bytes": 957172,
+      "sha256": "2633ae464c90c209cc353e736902c8b410167992a9b182ed7d83d9a1693806a5"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_01_lod2.mesh",
+      "bytes": 777172,
+      "sha256": "f8c2396b55c7ba3232e6c52ea3bb4bb9b16fcf1cdb45810cbc5ac12689f53010"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_01_lod3.mesh",
+      "bytes": 657220,
+      "sha256": "958f7d33620e8c27efc19c2ee7796720a93639a7b83a7b9910d8cde5de3b7f37"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_01_rig.json",
+      "bytes": 4469,
+      "sha256": "ad00f01ed9787af2788b9fd7e9a3431191027a7fa88d58b3ed15e3f7d637fb4b"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_02.bones",
+      "bytes": 491520,
+      "sha256": "359d55ac00c3a86a9fe23a9798e5a6997cb0bd60ba4cfe9e06a45bb146846cc7"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_02.skin",
+      "bytes": 11729232,
+      "sha256": "17bbf0d261328e1bcb30506e08bab5c6f36eb1e09cdb887d065deb6e365f6f41"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_02_lod0.mesh",
+      "bytes": 1287364,
+      "sha256": "8989bb1fbe4eb9e7e2be9f8f8c8a96e587d3ccb91b7b2520e3b636f40253993d"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_02_lod1.mesh",
+      "bytes": 973156,
+      "sha256": "6002667f39387afa20afd7e08e22f9bf88d384a984c894a53cd254c0028aafdb"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_02_lod2.mesh",
+      "bytes": 784516,
+      "sha256": "5fa13e50b8ded706b942548197a3051197d9c1b678d683ea96b6b1bdadb033b0"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_02_lod3.mesh",
+      "bytes": 658948,
+      "sha256": "dfc46d5250f4024764d27797cd7ae2f9247d14acde2aac5484cfc565a1d4dd36"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_02_rig.json",
+      "bytes": 4492,
+      "sha256": "d08833c0687900a44bb6bc8cb1fdbd0c41d3db81a08def69bb0c67a06e4000a8"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_05.bones",
+      "bytes": 491520,
+      "sha256": "265a05b16cd96cc15b46b71d33dcd1891b3315f596c58b19bbc178b4c010e88a"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_05.skin",
+      "bytes": 10741992,
+      "sha256": "9aad40d0195437939c2936b70f85a975fab72cbfbc9a3351937ec59f144aec22"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_05_lod0.mesh",
+      "bytes": 1193476,
+      "sha256": "b70e70028a5adf4138386cef695a54f9c53140b8644763b81b2bb78dc47df0cb"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_05_lod1.mesh",
+      "bytes": 893092,
+      "sha256": "e943cffc92414ceff44892bfcba9dbd3e39bee07d7bbe41d923e6a0daa46c09b"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_05_lod2.mesh",
+      "bytes": 712804,
+      "sha256": "2fdc62eb24e3ff822e3ad0536f6d84835156b295cd63a9f2df504c4659d7b9b3"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_05_lod3.mesh",
+      "bytes": 592852,
+      "sha256": "407c1be23c1164c98b5655bdd4c56ee25eb8d11a9f175fe51a6ecff63eae539f"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_05_rig.json",
+      "bytes": 4481,
+      "sha256": "05081aca59ee080376979c045f2ad0e933c614e5a7b15076b2b3ee8381a7981d"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_08.bones",
+      "bytes": 491520,
+      "sha256": "0a9a1e623098472ef16b13c09028b41cb88302e96fe2ee42b4808e92eb8df444"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_08.skin",
+      "bytes": 11078976,
+      "sha256": "a061de6c46027559a5aa4aa5bdc2fb2f1057bfe42f96ebe7a6b8deec06cffa09"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_08_lod0.mesh",
+      "bytes": 1191748,
+      "sha256": "7ca3a36cb9343a874d8352cc8891cf50d84638ab2d0dafc7d933de6e2c0e6c40"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_08_lod1.mesh",
+      "bytes": 915844,
+      "sha256": "b025694dc0b2b2a2cdbc6b8776b6a128adb20f3b419034a4e4fcf7aae9a5df46"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_08_lod2.mesh",
+      "bytes": 750676,
+      "sha256": "1801f1ba3a651d326d84397ebb932ac0f0cde0187cce97aea99f83e1e9f8a968"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_08_lod3.mesh",
+      "bytes": 640372,
+      "sha256": "5de3281f673a7caaeff37d35ba1cb6d6bfe7442e724826e64fbd29b460bb3eab"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_08_rig.json",
+      "bytes": 4481,
+      "sha256": "d8ca201080526f43bd80e736aba566e4020bf751595855b904caafe9187b4fca"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_10.bones",
+      "bytes": 491520,
+      "sha256": "b34b03e3b7436721d04145ff253ae9cdfe6c715752b30da7781d5c6a539d0342"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_10.skin",
+      "bytes": 7692264,
+      "sha256": "c7d54674e6bfd1ef82d54e17822e103a251a0e174da5f7c730f59da25ec38a58"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_10_lod0.mesh",
+      "bytes": 930244,
+      "sha256": "fa4633e4f2702483db3a8ce6e216ebbcd9912712c40e5f079b6eb7fc4cbf5732"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_10_lod1.mesh",
+      "bytes": 649300,
+      "sha256": "26bd0a8dd9e66d69e5953505352667174cfde2a2321e56ee9b2f3a45c0e116f1"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_10_lod2.mesh",
+      "bytes": 480964,
+      "sha256": "50fab88e106a92d580abc5d14d3a081f377f5044458b108218ff8b50a7caa095"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_10_lod3.mesh",
+      "bytes": 368644,
+      "sha256": "1c7052d67ac463cb54a14ee54f4ed210151d7c4e64e2ebed3c4ae4eefbd1645e"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_10_rig.json",
+      "bytes": 4485,
+      "sha256": "94dab945b9dbf304a18fc9ee5cf57114de6fbf4db56628a6d88da9bb094ac34c"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_14.bones",
+      "bytes": 491520,
+      "sha256": "ede36eaa4b7c47b919c5ad7ad7bcc0c7877582dc7735439c322420952494e45b"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_14.skin",
+      "bytes": 11379480,
+      "sha256": "defc85e4d7e55ce598e960f3e2cea6b2f55869f676195cdac03ac04fe0b22e98"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_14_lod0.mesh",
+      "bytes": 1256260,
+      "sha256": "ebb9898d128ee24611ac48ff7bdf0131428a1985230631a9a98584b93d1c8e45"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_14_lod1.mesh",
+      "bytes": 945076,
+      "sha256": "7515e1615e39415ae83cd69fdb7adf2177137ced80f4b42c9b4a5ed9acdfdc2d"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_14_lod2.mesh",
+      "bytes": 758308,
+      "sha256": "dc2a686807c42904d0187582eaf908791b4eaa6f4be571773d921f7a4cd0bc4d"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_14_lod3.mesh",
+      "bytes": 633892,
+      "sha256": "417f70a3efc526093f5a025519af764ec5307bca2b415d1c0ef21c8061607e60"
+    },
+    {
+      "path": "assets/living_people/Female_Adult_14_rig.json",
+      "bytes": 4490,
+      "sha256": "63906f730c899f5ca91466da83345b41d811aff8d6cb87aea9ca2522c0dd1fb9"
+    },
+    {
+      "path": "assets/living_people/Female_Child_01.bones",
+      "bytes": 491520,
+      "sha256": "1b35c4d4307f41386d8889e7342f06d01ad091a62fc9cf6472327569d6b830d1"
+    },
+    {
+      "path": "assets/living_people/Female_Child_01.skin",
+      "bytes": 9362592,
+      "sha256": "8d10278138a7286f9d23749626d828fe59d4256cacbfe1e6facec2560cebc772"
+    },
+    {
+      "path": "assets/living_people/Female_Child_01_lod0.mesh",
+      "bytes": 1022692,
+      "sha256": "f2cfe4b0603810db0d2855e1d5133749c6130c688397dd2ede6ccbd0791f841a"
+    },
+    {
+      "path": "assets/living_people/Female_Child_01_lod1.mesh",
+      "bytes": 776164,
+      "sha256": "d53e7543611015087460403b3eac1456d9308f70a9f166a27b6996725a3294b6"
+    },
+    {
+      "path": "assets/living_people/Female_Child_01_lod2.mesh",
+      "bytes": 628276,
+      "sha256": "60683b693c8589022245bd6ca76b6e8d4483ee2e91cc711d110b003b8c91efbd"
+    },
+    {
+      "path": "assets/living_people/Female_Child_01_lod3.mesh",
+      "bytes": 529492,
+      "sha256": "b84c326f8dd354fcae4b441adffbf91d33a43f1071f1a9b7dea496c00eb9f5bf"
+    },
+    {
+      "path": "assets/living_people/Female_Child_01_rig.json",
+      "bytes": 4487,
+      "sha256": "a195dcf2cf23697b649ba68da7bb1a1fd45168518dac7302ed50c02c8fc70031"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_01.bones",
+      "bytes": 491520,
+      "sha256": "485416652ef92c9c8b9bd2ab6446aa47439658a3c31d24a4cd388f8a850b7021"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_01.skin",
+      "bytes": 9850512,
+      "sha256": "e20ee21acff2b280ec88d46538005f0734bdaa53a11633bb3869117887572a62"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_01_lod0.mesh",
+      "bytes": 1071364,
+      "sha256": "46afd578ad4e9c94c59df4965623abdfbe7c1e2117b52e8ac730bf5151b823bf"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_01_lod1.mesh",
+      "bytes": 815908,
+      "sha256": "6fa7edb6c2157120089ea016fd63e9b2d045be6ba70da68aa6d937189996b067"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_01_lod2.mesh",
+      "bytes": 662692,
+      "sha256": "6d69ec0a3e136593307bab578e7cc36471a568fb3ae6ebdff0760c448f04cd2b"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_01_lod3.mesh",
+      "bytes": 560740,
+      "sha256": "05d029d1c617cca72c325918d587573cce910fb97f19b386e16fead94ff85601"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_01_rig.json",
+      "bytes": 4446,
+      "sha256": "6f3041d854b7d944bc3c23e411a210e6d8d2589bf2b5f50312b9c458e0985f9b"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_02.bones",
+      "bytes": 491520,
+      "sha256": "37ddb4943d2b278fc57e20d66710461cb379587592a76b08d57e3c1e7b2c3f08"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_02.skin",
+      "bytes": 10006920,
+      "sha256": "880db62511852926b571587d3103e4a60372454c320ab9ebda0b60cbad3a60fe"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_02_lod0.mesh",
+      "bytes": 1052932,
+      "sha256": "d80838eb324bfe0ec1479e1893ef4b2b350d862d1870586eaff63e65936a9429"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_02_lod1.mesh",
+      "bytes": 824260,
+      "sha256": "8f6883afc653236bec1e113c057d3bc2ee10f024bc78b4f19761cce9d0da417a"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_02_lod2.mesh",
+      "bytes": 687172,
+      "sha256": "3a0ed1cac5aea58fa426501cd19920b549b963b0b504dbe8b2fed0e254861991"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_02_lod3.mesh",
+      "bytes": 595732,
+      "sha256": "1c1e4de9b6a66a057f0d0d37f058ba01123cbf9dae1b4bdc45d5524dcb660181"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_02_rig.json",
+      "bytes": 4480,
+      "sha256": "69877adc38bb04dfa3e028a74b6f76d07b2089c23be349c4aeb33eed7ddc7155"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_04.bones",
+      "bytes": 491520,
+      "sha256": "1fcdb6a3ee8aa41bb41876efe1b9909ccc24ecbc79d40b51ee0c3b9b784986e5"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_04.skin",
+      "bytes": 11346192,
+      "sha256": "e8c5167c7fc1e642463bc92c9dd4a39f1c11470f8ba3cfbb197926c3ea27e699"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_04_lod0.mesh",
+      "bytes": 1250500,
+      "sha256": "840edee382a61eae5082cb6095d2c8336ea2d9b76602e10f38efeda2ec5d9b34"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_04_lod1.mesh",
+      "bytes": 942052,
+      "sha256": "f8acd0bf106bd517e696cef359f062a9a275fe7daafb44bc43c08edaa8c9b805"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_04_lod2.mesh",
+      "bytes": 756868,
+      "sha256": "0eaeb27e0592a64a47bdf016897e7947e236db5624fa0f51ec5fb9655f28854b"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_04_lod3.mesh",
+      "bytes": 633604,
+      "sha256": "ec1b0c5997741ad4ced4d2e9f1398fc87a0ddc16e3d85680cac6109087ec94b4"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_04_rig.json",
+      "bytes": 4474,
+      "sha256": "2259ce9d406b916a46422ec9d06bd72e04168409c47e53699557e15a8fdadb10"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_08.bones",
+      "bytes": 491520,
+      "sha256": "9437bc9000203f667a4c545f3d2b47709a9110bea527799c65b1d2f9701fec96"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_08.skin",
+      "bytes": 9634824,
+      "sha256": "f3419ce43fe9ec57d2d6e6de2e6169f7767afe0d235d629754e6a9ddb031ccfc"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_08_lod0.mesh",
+      "bytes": 1060420,
+      "sha256": "80b04a13c705e5ae95fd9945d7e55b78c86483683a1e15268f2212427990738d"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_08_lod1.mesh",
+      "bytes": 799780,
+      "sha256": "1fa1090fd0507492b252c87497c515cb8db7cbaec692cb8586a1718682b1e21f"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_08_lod2.mesh",
+      "bytes": 643252,
+      "sha256": "62dfe5ad5134cc5d0fad3ca1d1c0598f2b1e431d307ad3a083a7a402136ba2f7"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_08_lod3.mesh",
+      "bytes": 539140,
+      "sha256": "dff7832e9857d4ed7a9a1f8ed5f3edf5f2429ce51a38cb0414df015aa10d99e6"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_08_rig.json",
+      "bytes": 4479,
+      "sha256": "9abd2967b5d535de7fffcbc25337df9a241a7979b7d17f4e0b19f34e0ff56e1c"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_12.bones",
+      "bytes": 491520,
+      "sha256": "7094e251ae344a8003f8ede1b7ad114d1bc4fe8cb35fd3a363c0a174dbbe3ec1"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_12.skin",
+      "bytes": 8772528,
+      "sha256": "1b21325728736ba06988890148ede47165d9a019a5ca264ff71ac65fa1309e0a"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_12_lod0.mesh",
+      "bytes": 967972,
+      "sha256": "66b4b7252b774417c6500249dd3efa6154f9ab47607433c04c27e76c4a19cd78"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_12_lod1.mesh",
+      "bytes": 728500,
+      "sha256": "e22ffc4a68380468c139b60a3ae71a4ab8f24c3b24b05a00f5bdcf612b8bcb4a"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_12_lod2.mesh",
+      "bytes": 584788,
+      "sha256": "d94470b14e5e60d78052e87e30bd5ef63ebf0acaca3d2aaef32e455a75f71aa1"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_12_lod3.mesh",
+      "bytes": 489028,
+      "sha256": "4f88b45fd0570a4baadf3d6b211b62ea553dda2f2a9bb393b5411a299b1889a7"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_12_rig.json",
+      "bytes": 4465,
+      "sha256": "44f341419ff1cadf04a764b4586c74558f8979455da3120356097ae2f26142fa"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_18.bones",
+      "bytes": 491520,
+      "sha256": "914d8ef9979ffa8e5298b62327ea3ad4b18f54ded1d1468da027de990ced5392"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_18.skin",
+      "bytes": 7628880,
+      "sha256": "b84e9703317d1cb6484259a71698f39ca667984c26085ec0489de2994287a1f1"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_18_lod0.mesh",
+      "bytes": 926500,
+      "sha256": "4c9f78bc04699625a77d74c0db2b9d613ae8c89f2d53b3f6bca24b37c627eca7"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_18_lod1.mesh",
+      "bytes": 644548,
+      "sha256": "c84f3229f853d96ef65c462dcbdb2fcf1f857cce70e88f2fcb45e24e2a223a1c"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_18_lod2.mesh",
+      "bytes": 475348,
+      "sha256": "22ac3ae94e84d91b4d7dcc55ebbd7119f0575f00c2dd9c0b17a3a3efb774c20d"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_18_lod3.mesh",
+      "bytes": 362740,
+      "sha256": "c41644c4f3707fa47c408695dd73c19f1e5f51be508fba3bd817ed66eac260ca"
+    },
+    {
+      "path": "assets/living_people/Male_Adult_18_rig.json",
+      "bytes": 4483,
+      "sha256": "dd17354c96a0e8f7ed3ab80334776c04afa18e5996861f3784d770729e718e9f"
+    },
+    {
+      "path": "assets/living_people/Male_Child_01.bones",
+      "bytes": 491520,
+      "sha256": "1d91eeef6e29f8f40f46b12ee4c4bc4e75ecc1b22c7b7c408d99d2e292808947"
+    },
+    {
+      "path": "assets/living_people/Male_Child_01.skin",
+      "bytes": 8778912,
+      "sha256": "280e86e87f178efad2684af9f16e0474b3e9e12f668604b7e66451edc48d0b3b"
+    },
+    {
+      "path": "assets/living_people/Male_Child_01_lod0.mesh",
+      "bytes": 959044,
+      "sha256": "ecd2a964b2da051daaa452f531f3e1b2c6ac57082cf1dc3f83cfdf8027614d90"
+    },
+    {
+      "path": "assets/living_people/Male_Child_01_lod1.mesh",
+      "bytes": 727780,
+      "sha256": "adc115250f023d53deeb0b5eca7d7e540530d86d677a215ca849637a1a9babc0"
+    },
+    {
+      "path": "assets/living_people/Male_Child_01_lod2.mesh",
+      "bytes": 588964,
+      "sha256": "ff40640a140434ff65c55ec8a2e22f259257f4e4cbc5755fe02f3778b1fb29be"
+    },
+    {
+      "path": "assets/living_people/Male_Child_01_lod3.mesh",
+      "bytes": 496516,
+      "sha256": "19726d9c7e9e2a4f3e03279fa68e604dea014e4702cdbc9a45c53d5faf04d404"
+    },
+    {
+      "path": "assets/living_people/Male_Child_01_rig.json",
+      "bytes": 4472,
+      "sha256": "67e5e7e188726adcd0406d0641341e6f8dbd5522347731b9856c175a68da6cc3"
+    },
+    {
+      "path": "assets/living_people/Security_Male_01.bones",
+      "bytes": 491520,
+      "sha256": "477828a32ca8a36ca29d01a3c39ddeb2529f03cdee68b2a3bb84f3ee1bd399b0"
+    },
+    {
+      "path": "assets/living_people/Security_Male_01.skin",
+      "bytes": 13417800,
+      "sha256": "48bcb08e9e0bfcb20e5b413387647808975fd2365b8cf67388f6a58a463df69b"
+    },
+    {
+      "path": "assets/living_people/Security_Male_01_lod0.mesh",
+      "bytes": 1370164,
+      "sha256": "849e6f0dcf66d906f3cb07e1a813e85f97644656bb861e15e712577a25598ee7"
+    },
+    {
+      "path": "assets/living_people/Security_Male_01_lod1.mesh",
+      "bytes": 1099732,
+      "sha256": "359e77e66102e1914c05e0ade7000cd810be411fce05d9e422141a4cdd21ed41"
+    },
+    {
+      "path": "assets/living_people/Security_Male_01_lod2.mesh",
+      "bytes": 937588,
+      "sha256": "844b3665f0ebe15026bab58f724c607a9d5ba4f812ba2c123ba8a6b727aa6c49"
+    },
+    {
+      "path": "assets/living_people/Security_Male_01_lod3.mesh",
+      "bytes": 829732,
+      "sha256": "66239dbf3afc7e1d98a092fd0f8742e77e1087e6bc0f16176fdec04526897732"
+    },
+    {
+      "path": "assets/living_people/Security_Male_01_rig.json",
+      "bytes": 4469,
+      "sha256": "023d2bc71af399849bceddbdfc6fa293104892bc07eb434d01e665a6e96b2a32"
+    },
+    {
+      "path": "assets/marble_medium.mesh",
+      "bytes": 716116,
+      "sha256": "3dec6cb66716e7a2141cb726bd04282b7c711a2832a7f4b1401d6eb026f1f2ed"
+    },
+    {
+      "path": "assets/people/Business_Female_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "98479ed1e17e161e9e664100acc53df9388b826678d418898946c85018e1008f"
+    },
+    {
+      "path": "assets/people/Business_Female_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "ef6aa53c72207709e05a8873785b9d805f6d2098d388e0b86c3eb4f2ff756314"
+    },
+    {
+      "path": "assets/people/Business_Female_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "5be015b76a01febaff7e847dfe3c0e3ced3b93ae2f4fa2cd441e09d1a5d13050"
+    },
+    {
+      "path": "assets/people/Deer_Roe_Tabby_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "f326d142d52e7727bd7dbb8a772565543ca9dc04c383335436d3e196a1ffe83a"
+    },
+    {
+      "path": "assets/people/Deer_Roe_Tabby_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "1520210996e147232899137f9ef154b4898f6893a0270510572d93487cacc20b"
+    },
+    {
+      "path": "assets/people/Deer_Roe_Tabby_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "73085e1858c126a98079e90b4586d799acedba8e2f59f2c201805264f2425a29"
+    },
+    {
+      "path": "assets/people/Dog_Beagle_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "1e158770d9ed78669bc5aacdc909904712cd0393c0252c807ab8ab72733d6a11"
+    },
+    {
+      "path": "assets/people/Dog_Beagle_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "1520210996e147232899137f9ef154b4898f6893a0270510572d93487cacc20b"
+    },
+    {
+      "path": "assets/people/Dog_Beagle_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "b68f6dfa6c71044249d4c1ce93e501cd3c31042bc78275503a5b23fec841585f"
+    },
+    {
+      "path": "assets/people/Female_Adult_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "9f90f45e109079c85b857626709419e787fa8f31a7a1f7d6f1df5e007a7df3ee"
+    },
+    {
+      "path": "assets/people/Female_Adult_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "b6455cac32e28bcf11a15f5f7cd07740f78eb4348face65a117487ffda2d5be2"
+    },
+    {
+      "path": "assets/people/Female_Adult_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "96b17fd1648a43de94aea013c35061ba4d7e8096140aebcc992598eb307f98b2"
+    },
+    {
+      "path": "assets/people/Female_Adult_02_color.rgba",
+      "bytes": 50331656,
+      "sha256": "bff3fbc1cc5f592f616fa1b86948a0810db7b78f53e1149bb5cba93d1b159b17"
+    },
+    {
+      "path": "assets/people/Female_Adult_02_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "a4a86f069ceb89b3660b7218b0aab226850ab0e2480ea20a1a8c418e1d5b4180"
+    },
+    {
+      "path": "assets/people/Female_Adult_02_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "49b03217c3ae1a17c8643b748c4e684058f1215070b4da6dd5938aafda8e170a"
+    },
+    {
+      "path": "assets/people/Female_Adult_05_color.rgba",
+      "bytes": 50331656,
+      "sha256": "2183405e5ef0b290286598179b984d4c0887d96e46f3ef3953e52ec07275c431"
+    },
+    {
+      "path": "assets/people/Female_Adult_05_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "70f3d27643ce072456a7fa8b59e2cddfcefa2fce5432a7f73037ae96b65ec27a"
+    },
+    {
+      "path": "assets/people/Female_Adult_05_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "a3a14498e5dc540630682db31f1b6b99f3e7e8c8ef302156dc3b2570a004356a"
+    },
+    {
+      "path": "assets/people/Female_Adult_08_color.rgba",
+      "bytes": 50331656,
+      "sha256": "078150f41cf5dcc5d850af84e9a5e381d89586780f16890103bbf78fdfa531dd"
+    },
+    {
+      "path": "assets/people/Female_Adult_08_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "8ea72ba840a9477e2c313b4c05882e7e5364be4330ec2d9864c8acaf4dd256bb"
+    },
+    {
+      "path": "assets/people/Female_Adult_08_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "31e2d110594cd02655bcbf1924fa607da68c330cbeca7e8c028866e4bc01df0d"
+    },
+    {
+      "path": "assets/people/Female_Adult_10_color.rgba",
+      "bytes": 50331656,
+      "sha256": "6e1c7c23164379638b2740cf47fc33f8c91b47bd38aecef76002d2ebe606f3dd"
+    },
+    {
+      "path": "assets/people/Female_Adult_10_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "7366410d28d413eeaf8ce9658e0375c073db0de1ec5a3b4901ee2c9761b9d706"
+    },
+    {
+      "path": "assets/people/Female_Adult_10_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "0bfa57d5e68ef0e31336560b077fa8ae0f62a69c509af85575f6aaf5282c1dd3"
+    },
+    {
+      "path": "assets/people/Female_Adult_14_color.rgba",
+      "bytes": 50331656,
+      "sha256": "efc54eb4f6ace31f7753e0d2c744b846b039241a48083b9bc5bc93ba8c5c4321"
+    },
+    {
+      "path": "assets/people/Female_Adult_14_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "c490d52c354f86ebe9b6a565ca76fc0d478755ca3da57f167dfcb159a1bd9877"
+    },
+    {
+      "path": "assets/people/Female_Adult_14_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "63b661a53d0850d9dada7bc57a403ee711654e30ab73cfaf76ed09b0660b09b5"
+    },
+    {
+      "path": "assets/people/Female_Child_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "568f6b422de256981a52ee4ef780d47a006ca3c7020cc28c1fdc7fd0baab9c13"
+    },
+    {
+      "path": "assets/people/Female_Child_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "c96727757937aa9710b5395c52424a50e6042c2eb004357dc462eeddda89d377"
+    },
+    {
+      "path": "assets/people/Female_Child_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "403cf440ae74c0c312cfc8e620e61d60852bf7d24575a389286e56ef7dda797a"
+    },
+    {
+      "path": "assets/people/Male_Adult_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "4c93d531de34ce28ff526c94fcc72af513c2739f8e67c4dfe784141f9664899f"
+    },
+    {
+      "path": "assets/people/Male_Adult_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "6ee1909dc86570655e7460d2eb8acfcfaeee7fd7b57b20a86c9f40b51e1cc2a4"
+    },
+    {
+      "path": "assets/people/Male_Adult_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "ed097211d21590dd1f185825daef6e5ed9447e6d9dcd1039f1320a1f9ac158ec"
+    },
+    {
+      "path": "assets/people/Male_Adult_02_color.rgba",
+      "bytes": 50331656,
+      "sha256": "18083d1cd16251abdf0f493ef2a117ff302cd2c66db432b5235582ce6aa0b6e0"
+    },
+    {
+      "path": "assets/people/Male_Adult_02_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "65bfa75a13c6418caa148959d52401628fca32e10d1cf596121d337c6d8c2c19"
+    },
+    {
+      "path": "assets/people/Male_Adult_02_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "83ce2052f2bba7d1ec8d5c0c966e60cf2433911ac800972992de050acb39ae57"
+    },
+    {
+      "path": "assets/people/Male_Adult_04_color.rgba",
+      "bytes": 50331656,
+      "sha256": "8231346d9e56454375b984addd47089c6411695a98d8cb9e31668a6be42ecbc9"
+    },
+    {
+      "path": "assets/people/Male_Adult_04_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "d507178b9c64e20aae163ef1cac6ca8f5451e093aeb54055115b72343aa72195"
+    },
+    {
+      "path": "assets/people/Male_Adult_04_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "624e8a1e254d5af4454930f8ade02de97a66c0218a366c2a675e34c55a7280fc"
+    },
+    {
+      "path": "assets/people/Male_Adult_08_color.rgba",
+      "bytes": 50331656,
+      "sha256": "e8cddf255580744a06827d9de698bda54fe54804a8da96e96225cafb34da2818"
+    },
+    {
+      "path": "assets/people/Male_Adult_08_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "024393ccc119d0ca1eeea444e84c04fb29b7841566b190a695629ef51b291d8e"
+    },
+    {
+      "path": "assets/people/Male_Adult_08_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "0446fc160063fec44af566aa09c57cab12fe53481bfbba0916ed2c8a8d1e819c"
+    },
+    {
+      "path": "assets/people/Male_Adult_12_color.rgba",
+      "bytes": 50331656,
+      "sha256": "f59f9b54f670d99e95355f1a7bfda12934b3f3b97304fdda2bda364842018956"
+    },
+    {
+      "path": "assets/people/Male_Adult_12_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "de17980eb04ac64ec429249e5ec261a964b00f4d6f3933d4d62bea9152e0bddf"
+    },
+    {
+      "path": "assets/people/Male_Adult_12_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "75f86c910c1962a7472c3c6f31445971f177c9a4c9461d4c17df3b7657384c26"
+    },
+    {
+      "path": "assets/people/Male_Adult_18_color.rgba",
+      "bytes": 50331656,
+      "sha256": "4f6fa2ea2c8c9dc6ff7c21c63b8044f2d25994763f2e804e5473dcf4c5998445"
+    },
+    {
+      "path": "assets/people/Male_Adult_18_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "e0d0c4a3b4970b33428baff774743b4d97611ee5ad2a2ce910ceae45a54f1091"
+    },
+    {
+      "path": "assets/people/Male_Adult_18_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "171145a504183ef294142610ba429a80bb412e65b6e69dc327278c293689f8e2"
+    },
+    {
+      "path": "assets/people/Male_Child_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "fe4b95f1156941cf51187b24cd786bd59ece2b2c98018e9f71714a8ad2820d6c"
+    },
+    {
+      "path": "assets/people/Male_Child_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "4347a1682c6cf016c3c3e733e3c8efb1337f39a83a307d195a39cf46819e0070"
+    },
+    {
+      "path": "assets/people/Male_Child_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "68366f7b3a045394238ed617a645b5d89d7c4c023809de8152d6239a3348192c"
+    },
+    {
+      "path": "assets/people/Security_Male_01_color.rgba",
+      "bytes": 50331656,
+      "sha256": "73008865a7e715a75b332186104f206d8fc2ef7ce70e66d972856a1a5c006146"
+    },
+    {
+      "path": "assets/people/Security_Male_01_normal.rgba",
+      "bytes": 12582920,
+      "sha256": "998f6652f73cdc2d0b8267cbd81592aa4f116b58844ed6716c84b6597fc60022"
+    },
+    {
+      "path": "assets/people/Security_Male_01_rough.rgba",
+      "bytes": 12582920,
+      "sha256": "7a18a41f712fa6abd27c1280a1d841f34b589e1820bb9e766bcbc31da5ef465b"
+    },
+    {
+      "path": "assets/variety/antique_ceramic_vase_01_color.rgba",
+      "bytes": 4194312,
+      "sha256": "4823d2ac4e8240a12abe1f1d38f90ee5353d28098c88cae6690486f15f95d64f"
+    },
+    {
+      "path": "assets/variety/antique_ceramic_vase_01_high.mesh",
+      "bytes": 1354756,
+      "sha256": "8977fcfe74234fbf86ba3eff1c1580316e190b922957609ad311547dd06874c6"
+    },
+    {
+      "path": "assets/variety/antique_ceramic_vase_01_low.mesh",
+      "bytes": 203188,
+      "sha256": "6ab44a89624f4c675df3619815f21af841586e845f2e2af2d2285bf3a2f62cc3"
+    },
+    {
+      "path": "assets/variety/antique_ceramic_vase_01_normal.rgba",
+      "bytes": 4194312,
+      "sha256": "b5c1d206f1d8db58347499e7e450dce2f45f827a73e8b9e799f88165f250a93e"
+    },
+    {
+      "path": "assets/variety/antique_ceramic_vase_01_rough.rgba",
+      "bytes": 4194312,
+      "sha256": "c7262ed43d2fb2a169e22df56144a15c520c5b05d874d2cf0fb4d18917c8059d"
+    },
+    {
+      "path": "assets/variety/chinese_armchair_color.rgba",
+      "bytes": 4194312,
+      "sha256": "36cdc6b8e3786305fcb450e1cc49f5745f2c597aece21bb8fa82f09922d36a08"
+    },
+    {
+      "path": "assets/variety/chinese_armchair_high.mesh",
+      "bytes": 385204,
+      "sha256": "18ed9ce1dd81ffb261a4f0b0f3460ecebaeac291a70e9ffe66c63e5d40618464"
+    },
+    {
+      "path": "assets/variety/chinese_armchair_low.mesh",
+      "bytes": 57604,
+      "sha256": "75c900857dfef2e6b126e31e53273999f2f6fd737829116fc826b5a2dcd1bbfe"
+    },
+    {
+      "path": "assets/variety/chinese_armchair_normal.rgba",
+      "bytes": 4194312,
+      "sha256": "1d91fb7a1af67be4d60da2d013fff257002135f65969841c41bda1c0a6133394"
+    },
+    {
+      "path": "assets/variety/chinese_armchair_rough.rgba",
+      "bytes": 4194312,
+      "sha256": "980fee2d8c359793c961134980ff89b2fab8cc236aff0c0dc348c2072e5b4392"
+    },
+    {
+      "path": "assets/variety/horse_statue_01_color.rgba",
+      "bytes": 8388616,
+      "sha256": "53a13315d44c5b738cf5b63a82beb6c007866fec7cb68047ce371c4de6397181"
+    },
+    {
+      "path": "assets/variety/horse_statue_01_high.mesh",
+      "bytes": 3223876,
+      "sha256": "42c37cc471a9a51442df39127b3e75d23326f84ea8f503b3287fb74f8212b4a2"
+    },
+    {
+      "path": "assets/variety/horse_statue_01_low.mesh",
+      "bytes": 483412,
+      "sha256": "d3ec1eb94ebc8808d007c38317ecc11fa7144bab523474146ad81f9d9fdb4298"
+    },
+    {
+      "path": "assets/variety/horse_statue_01_normal.rgba",
+      "bytes": 8388616,
+      "sha256": "a7d34e2b26cc74e56fa79e86a9cbc264c4b23a8892c588b1101f0ab8f3fe48fd"
+    },
+    {
+      "path": "assets/variety/horse_statue_01_rough.rgba",
+      "bytes": 8388616,
+      "sha256": "eeb92d0aad182bd69ad1680395bf346f7c64ff106ef44bc22731a616428a48e3"
+    },
+    {
+      "path": "assets/variety/vintage_video_camera_color.rgba",
+      "bytes": 8388616,
+      "sha256": "aad57a3b5e9c59659a7df5d044ff41faa50bf0812b633e892bc4184f3093e395"
+    },
+    {
+      "path": "assets/variety/vintage_video_camera_high.mesh",
+      "bytes": 2690212,
+      "sha256": "6c198b91c8f84c653d3ad9e5c9687f250aa7dc87867aef6c02bab0033582d273"
+    },
+    {
+      "path": "assets/variety/vintage_video_camera_low.mesh",
+      "bytes": 403492,
+      "sha256": "ed6862ad7b45d7932afa34cdb7fe9c737c8bd1b91ae7e5668ab8b1a2b57f3ba2"
+    },
+    {
+      "path": "assets/variety/vintage_video_camera_normal.rgba",
+      "bytes": 8388616,
+      "sha256": "04e5d1345c5dac311d9ed599dddedddbfe4efaa2937f6270e67fa8c6e11f7a05"
+    },
+    {
+      "path": "assets/variety/vintage_video_camera_rough.rgba",
+      "bytes": 8388616,
+      "sha256": "ccc44f243bacbb882fe75194bea2f7e8c0a2074763b01e4193b7fade38ba91a3"
+    },
+    {
+      "path": "base_assets/head_high.mesh",
+      "bytes": 2546500,
+      "sha256": "8f9325c87fdaa5772e13bfac186ac92c0ddb19dda102802ce21a70cef18b5228"
+    },
+    {
+      "path": "base_assets/head_low.mesh",
+      "bytes": 114484,
+      "sha256": "c1e04255da4fedee691d87fffd397e927a618798e2125a778552a94dd61aa9a9"
+    },
+    {
+      "path": "base_assets/marble_color.rgba",
+      "bytes": 16777224,
+      "sha256": "5c8a5cab332515e330e83a13fc57d6042603e76e77d8c24b6ba23b625103fd8c"
+    },
+    {
+      "path": "base_assets/marble_color_low.rgba",
+      "bytes": 4104,
+      "sha256": "853e844c7e3f4c283135dd324b456e45357fb7b05d984274384d45d8627af71d"
+    },
+    {
+      "path": "base_assets/marble_high.mesh",
+      "bytes": 2513668,
+      "sha256": "8b017748fc702213d7cf16a0a183435011fd06462c5b04ecbc99d713004e64b8"
+    },
+    {
+      "path": "base_assets/marble_low.mesh",
+      "bytes": 112900,
+      "sha256": "844b6c294f6adab72c60eb88831188ca37b2b84f6811085c41ed025c000c219a"
+    },
+    {
+      "path": "base_assets/marble_normal.rgba",
+      "bytes": 16777224,
+      "sha256": "ab1288fd96c3e68ea5affd338e3e2654a8f8d811316ea0608723d45c5a66c377"
+    },
+    {
+      "path": "base_assets/marble_rough.rgba",
+      "bytes": 16777224,
+      "sha256": "87b17526499af6e5509ea844ee0069079a9063c54b86c2c1c6cf4968635dd1fd"
+    },
+    {
+      "path": "base_assets/skin_color.rgba",
+      "bytes": 4194312,
+      "sha256": "2a3a5d4184bfbf91015c870ed2b1621cd179b17719e9851a89b585596adca413"
+    },
+    {
+      "path": "base_assets/skin_color_low.rgba",
+      "bytes": 4104,
+      "sha256": "d9481c51cf566026b96613b09b3429134f403115f5e2b39040b20b7dceff6fc0"
+    },
+    {
+      "path": "base_assets/skin_normal.rgba",
+      "bytes": 4194312,
+      "sha256": "eac5520d04a054781558e0bc23e4883ac08046532ea80cac6342aa5c77662b89"
+    },
+    {
+      "path": "base_assets/skin_spec.rgba",
+      "bytes": 4194312,
+      "sha256": "ea29b02af3d755c181a9820a18e320f109b793a39d9e7a4e730211b5923089c3"
+    }
+  ]
+}

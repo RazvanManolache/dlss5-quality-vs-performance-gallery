@@ -1,0 +1,4 @@
+[submodule "external/phoenix"]
+	path = external/phoenix
+	url = https://github.com/RazvanManolache/dlss5-phoenix-addon.git
+	branch = main

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "archive_sha256": "cc7f80e03ef63614d9c046da590c9726a192044ee7234345acbab34d05ccba4f",
+  "archive_bytes": 1019641764,
+  "files": 293,
+  "download": {
+    "download_needed": true,
+    "installed": 293,
+    "verified": 293
+  },
+  "offline_cache_repair": {
+    "download_needed": true,
+    "installed": 1,
+    "verified": 293
+  },
+  "current_install": {
+    "download_needed": false,
+    "installed": 0,
+    "verified": 293
+  },
+  "all_file_hashes_match": true
+}

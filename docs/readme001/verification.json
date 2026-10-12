@@ -1,0 +1,688 @@
+{
+  "passed": true,
+  "hardware": "NVIDIA GeForce RTX 5080",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "measured_frames": 3024,
+  "repeats": 3,
+  "conditions": 21,
+  "fps_definition": "1000 / mean measured single-view offscreen frame wall time in ms, including CPU/driver work and GPU fence; excludes presentation and capture.",
+  "moving_people": true,
+  "full_body_meshes": true,
+  "d3d12_errors": 0,
+  "windows_hidden": true,
+  "presentation": false,
+  "capture_during_timing": false,
+  "phoenix_commit": "7c5a815b7b15a3b350b139ea9f3d451b87c587ce",
+  "timing_build": "build019",
+  "screenshot_build": "build018",
+  "run_sha256": "a1f9a6c527e2c252d737f5f880db6769c46230a7b83fae3ad6071a9c588be83e",
+  "timing_build_manifest_sha256": "b634b3d5494fec0fc9d75247a05b2a3a298212daa11c8217d19a7a2c4b544a1c",
+  "screenshots_verification_sha256": "57dc4cbebe25e4a6cc01f08652f33187ae3630db8ab527aa6856d9f32d8ad5fc",
+  "selected_sources": [
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "very_light",
+      "mode": "off",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\very_light__off.png",
+      "source_sha256": "fe8aa7c26a70c51a033b84f1a9c28c5ac9d701866f819298f37d5cce32c856c5"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "very_light",
+      "mode": "off",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\very_light__off.png",
+      "source_sha256": "633629a04f25c6fd9c571d3e5305b0f23a89578208959c0de8af1212b0a42779"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "room_bounce_contact",
+      "mode": "off",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\room_bounce_contact__off.png",
+      "source_sha256": "f623c1de3ecbf72bda11a1036fe201bf1851592409ee97e1a4aba8b18cc2f424"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "room_bounce_contact",
+      "mode": "off",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\room_bounce_contact__off.png",
+      "source_sha256": "e2454c7b587aca863968fbf19ca84faf9065de173d973dbb5b42fc670fc8b6bb"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "soft_shadows",
+      "mode": "off",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\soft_shadows__off.png",
+      "source_sha256": "35127963a968dd23d3f7a5f215f94f68287014bd0c541e19b00dffe47d0519d2"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "soft_shadows",
+      "mode": "off",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\soft_shadows__off.png",
+      "source_sha256": "dc504f6c892d110b9e34b0b7ab7137caae497b96f8b8190458f2af244924f27d"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "sparse_gi_reflections",
+      "mode": "off",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\sparse_gi_reflections__off.png",
+      "source_sha256": "4fd406cc47851efc7573344808fded6b5bdf024e262c228b6565775427c4223c"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "sparse_gi_reflections",
+      "mode": "off",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\sparse_gi_reflections__off.png",
+      "source_sha256": "774afebf773dec9a5d5e0d4dbf83a98b13c9fad11eeb616cf41bf1d6b4d6b6ab"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "light_detail",
+      "mode": "off",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\light_detail__off.png",
+      "source_sha256": "e32fc4aaacd130e4659e3ea8d1ad1a5b41091275e76ab7145f6a0fbecba0f067"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "light_detail",
+      "mode": "off",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\light_detail__off.png",
+      "source_sha256": "caffeb2e97c71830206700c2d9c64e2c1edb0dd25ea0a7ea86d632d147d272e2"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "very_light",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\very_light__full_frame.png",
+      "source_sha256": "31d092fef8bbb16a8f6fb12c0400d43bf1e31b6cbf183482f9b072a25ce97fdf"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "very_light",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\very_light__full_frame.png",
+      "source_sha256": "6a6f40e37f0c83f0af01c8e1905a0750e9955593a587b3ea0eabff68d682b8bf"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "very_light",
+      "mode": "protected",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\very_light__protected.png",
+      "source_sha256": "ab782b1fa57a61430a1ea874e8faf8d8bd156cc5504bcee661057f483c2c2a16"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "very_light",
+      "mode": "protected",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\very_light__protected.png",
+      "source_sha256": "7ff035c66d37f21451e34c61195cafbbd851f4ffcffc64971e248f2a5870c706"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "soft_shadows",
+      "mode": "protected",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\soft_shadows__protected.png",
+      "source_sha256": "9eedb42f7516a3874331c82ea9247fa20a743cdbf60086efaf7ec2ff1c991481"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "soft_shadows",
+      "mode": "protected",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\soft_shadows__protected.png",
+      "source_sha256": "b2d2db4e25dd206b39375517e92bc5c192656581d2a4f31ced0813c121f3afd2"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "soft_shadows",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\soft_shadows__full_frame.png",
+      "source_sha256": "b9b9d315ea82b8f23ca9b4f3916affd8ef179e2d4ee957d3f688775cf6934cbf"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "soft_shadows",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\soft_shadows__full_frame.png",
+      "source_sha256": "b7804c365787ecdb2f89e9e816a883547588552240348d0dd4f850983de59964"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "sparse_gi_reflections",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\sparse_gi_reflections__full_frame.png",
+      "source_sha256": "070334fee38c6c1c2d56f904aa2f4198410fd13e72e27a303d52f8e916052325"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "sparse_gi_reflections",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\sparse_gi_reflections__full_frame.png",
+      "source_sha256": "93367f7c4b61eb4bf468c1959cbe53666357fcd4aa54575f065e3f4f3e42b4c3"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "light_detail",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\light_detail__full_frame.png",
+      "source_sha256": "a3df2a6d07cbc3d82f2fba8d7f7c3c218cfe5a364ffe8fe8ef89461b2aa70587"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "light_detail",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\light_detail__full_frame.png",
+      "source_sha256": "e289e69bdf6475e82e0bc1fb824d27ff9acca9112d0a0c85e55c5f2d3d367cd8"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "room_bounce_contact",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\room_bounce_contact__full_frame.png",
+      "source_sha256": "6641599a7b437f90a40c37f09c1062e73569e987b636667fee2c335094c52fdf"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "room_bounce_contact",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\room_bounce_contact__full_frame.png",
+      "source_sha256": "1fe1ad4f4bef6a4b165d51bd697c06cb028b8b7632b1c66983eba0d32a09dc1f"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "sparse_gi_reflections",
+      "mode": "protected",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\sparse_gi_reflections__protected.png",
+      "source_sha256": "d9c1e6859e9c8e9afb78bff612979826421f648a798e3d3dcf992e185da55e84"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "sparse_gi_reflections",
+      "mode": "protected",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\sparse_gi_reflections__protected.png",
+      "source_sha256": "b7650e342953ce07a722ced94ea2c47640bec6b2380967e6101837c232c956ec"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "light_detail",
+      "mode": "protected",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\light_detail__protected.png",
+      "source_sha256": "f1fc40a2b86473307ed1d888d956167a40f4966b0570045a7c493c994572cbf3"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "light_detail",
+      "mode": "protected",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\light_detail__protected.png",
+      "source_sha256": "d9890724af9183c858f2f1696ecf022be5a8e20bfaf65d51d700834c6d9490d3"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "room_bounce_contact",
+      "mode": "protected",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\room_bounce_contact__protected.png",
+      "source_sha256": "c74f9c94aec7162598b9f74ac0f7ad08c5ec65f2cc6a73aeda3ad4281a416ae6"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "room_bounce_contact",
+      "mode": "protected",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\room_bounce_contact__protected.png",
+      "source_sha256": "dbe28ba83768d8aa76b8d8c7867a0283921361b54ba78d74679a09f407d64188"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "middle",
+      "mode": "off",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\middle__off.png",
+      "source_sha256": "77aad30e6853692893b05672c6b85b1c4183ebe31854a6ad20d1bedec09782ba"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "middle",
+      "mode": "off",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\middle__off.png",
+      "source_sha256": "80f498d3e6ba81c3888b56fe18fffee3c6abda2ad23d46889de15cb073e315e6"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "middle",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\middle__full_frame.png",
+      "source_sha256": "d03ee07c4f58bb014f313b0baf64aee6bab729e1ab8b71d300f1d3a74ff95864"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "middle",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\middle__full_frame.png",
+      "source_sha256": "53bade88f6356a2ce2107aaedf2669e6b67104f974f16f9f23a9003f14772eaf"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "middle",
+      "mode": "protected",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\middle__protected.png",
+      "source_sha256": "203cadce579a1ce9ae6ef83bfedb026f721dd6a50092fac9fb677c18fcee169d"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "middle",
+      "mode": "protected",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\middle__protected.png",
+      "source_sha256": "55b92a91a23ecddc9c686fb552d7ead6c6fc5e93aaf72d93ad54f8efe26dbcd9"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "beauty",
+      "mode": "off",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\beauty__off.png",
+      "source_sha256": "c5accc8318f4195e94785bbf9257932723b8967d2938289a09fc6c99bbf2f693"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "beauty",
+      "mode": "off",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\beauty__off.png",
+      "source_sha256": "8ac42e46e18bb0bf0a9f165f3758ade3671155db02d6a5a8f157e01c85802f12"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "beauty",
+      "mode": "protected",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\beauty__protected.png",
+      "source_sha256": "c5b13f1591bb7fc5b79a99b7140888fa1a4348d68b6d4706c408b20d4ff93229"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "beauty",
+      "mode": "protected",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\beauty__protected.png",
+      "source_sha256": "46c2a01dfacef0761a13bd7239020c3c9c82c7f2014102bb4fe7925090766031"
+    },
+    {
+      "panel": "table",
+      "view": "room0",
+      "quality": "beauty",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\beauty__full_frame.png",
+      "source_sha256": "6d0c76c99eb1965e86cdfe607e572bd6077957d4e5a3fc4dc01d8281f7b436d0"
+    },
+    {
+      "panel": "table",
+      "view": "person11_face",
+      "quality": "beauty",
+      "mode": "full_frame",
+      "thumbnail_crop": [
+        500,
+        230,
+        1230,
+        960
+      ],
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\beauty__full_frame.png",
+      "source_sha256": "fc66ed82cd58b2a8eff491dce84cc70d4a650d9457987c9cdbfd6a82b921c17e"
+    },
+    {
+      "panel": "scene",
+      "view": "room0",
+      "quality": "light_detail",
+      "mode": "full_frame",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\light_detail__full_frame.png",
+      "source_sha256": "a3df2a6d07cbc3d82f2fba8d7f7c3c218cfe5a364ffe8fe8ef89461b2aa70587"
+    },
+    {
+      "panel": "scene",
+      "view": "room0",
+      "quality": "middle",
+      "mode": "off",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\middle__off.png",
+      "source_sha256": "77aad30e6853692893b05672c6b85b1c4183ebe31854a6ad20d1bedec09782ba"
+    },
+    {
+      "panel": "scene",
+      "view": "room0",
+      "quality": "beauty",
+      "mode": "off",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\room0\\beauty__off.png",
+      "source_sha256": "c5accc8318f4195e94785bbf9257932723b8967d2938289a09fc6c99bbf2f693"
+    },
+    {
+      "panel": "clothing",
+      "view": "person0_body",
+      "quality": "light_detail",
+      "mode": "off",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person0_body\\light_detail__off.png",
+      "source_sha256": "aac8edbab8c49276ee704415aa2ae5816afc18a488640efb29932c06b72dcf31"
+    },
+    {
+      "panel": "clothing",
+      "view": "person0_body",
+      "quality": "light_detail",
+      "mode": "full_frame",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person0_body\\light_detail__full_frame.png",
+      "source_sha256": "0c8cd1dfc9757bc48ee53c70fe1fbce3eb32dd4c6f49adc4c16bcb4bc01b49fe"
+    },
+    {
+      "panel": "clothing",
+      "view": "person0_body",
+      "quality": "beauty",
+      "mode": "off",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person0_body\\beauty__off.png",
+      "source_sha256": "308b8602ac3dcf800bff9b4527df10479610391c467e29b34a8aff6aa3cef56c"
+    },
+    {
+      "panel": "face",
+      "view": "person11_face",
+      "quality": "light_detail",
+      "mode": "off",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\light_detail__off.png",
+      "source_sha256": "caffeb2e97c71830206700c2d9c64e2c1edb0dd25ea0a7ea86d632d147d272e2"
+    },
+    {
+      "panel": "face",
+      "view": "person11_face",
+      "quality": "light_detail",
+      "mode": "protected",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\light_detail__protected.png",
+      "source_sha256": "d9890724af9183c858f2f1696ecf022be5a8e20bfaf65d51d700834c6d9490d3"
+    },
+    {
+      "panel": "face",
+      "view": "person11_face",
+      "quality": "light_detail",
+      "mode": "full_frame",
+      "source_png": "E:\\Games\\Reshade\\phoenix-gallery\\docs\\screenshots001\\images\\person11_face\\light_detail__full_frame.png",
+      "source_sha256": "e289e69bdf6475e82e0bc1fb824d27ff9acca9112d0a0c85e55c5f2d3d367cd8"
+    }
+  ],
+  "exporter_sha256": "bf3251f67ff37ad3c3abd80284752e1f58a63d636ead3bc227b781add5e2a3ac",
+  "limits": "Room-camera FPS applies to the table and room panel. Character close-ups are appearance examples, without measured close-up FPS."
+}

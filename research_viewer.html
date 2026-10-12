@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phoenix Gallery — rendering budget research</title>
+<style>
+:root{color-scheme:dark;font:16px/1.5 system-ui;background:#10151b;color:#eef3f7}body{margin:0}main{max-width:1600px;margin:auto;padding:26px}h1{font-size:30px;margin:0 0 6px}p{color:#b9c7d2;max-width:1000px}a{color:#86d9d1}fieldset{border:1px solid #344350;border-radius:12px;display:flex;gap:16px;flex-wrap:wrap;padding:16px;margin:20px 0}label{display:flex;flex-direction:column;gap:5px}select,button{font:inherit;padding:8px;border:1px solid #526272;border-radius:7px;background:#1b2732;color:inherit}label.check{flex-direction:row;align-items:center}.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}figure{margin:0;background:#19232d;border-radius:10px;overflow:hidden}figure img{width:100%;display:block}figcaption{padding:12px 16px}.cost{color:#86d9d1}.note{font-size:14px}.motion img{max-width:960px;width:100%}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:right;padding:9px;border-bottom:1px solid #344350}th:first-child,td:first-child{text-align:left}.table{overflow:auto}details{margin-top:22px;border-top:1px solid #344350;padding-top:14px}summary{cursor:pointer;font-size:20px}#status{color:#ffbb82}@media(max-width:800px){.pair{grid-template-columns:1fr}main{padding:16px}h1{font-size:25px}}
+</style>
+<main>
+<h1>What is worth rendering before Phoenix?</h1>
+<p>Matched views from 25 rendering experiments. Compare the expensive native image with cheaper lighting plus neural rendering, then inspect what the network actually received.</p>
+<p id="status">Loading measurements…</p>
+<fieldset><legend>Comparison</legend>
+<label>View<select id="view"><option value="room">Gallery</option><option value="person0">Visitor 1 · shirt and face</option><option value="person1">Visitor 2</option><option value="person2">Visitor 3</option></select></label>
+<label>Left<select id="left"></select></label><label>Right<select id="right"></select></label>
+<label class="check"><input id="source" type="checkbox"> Show native inputs on both sides</label>
+</fieldset>
+<div class="pair"><figure><img id="leftImage" alt="Left matched rendering"><figcaption id="leftCaption"></figcaption></figure><figure><img id="rightImage" alt="Right matched rendering"><figcaption id="rightCaption"></figcaption></figure></div>
+<p id="variantNote" class="note"></p>
+<p class="note">Images open at full resolution when clicked. Times include scene rendering, Phoenix and conversion/compositing at 1920 × 1080. They exclude capture and presentation; they are not delivered FPS. A lower image distance to Beauty is not a quality verdict.</p>
+<details open><summary>Check the moving character</summary><p>Identical two-second camera and animation sequences, captured at 24 fps. Watch the shirt, hairline, face and changing illumination.</p>
+<label>Third comparison<select id="motionChoice"><option value="proxy">Room bounce + contact</option><option value="sparse">Sparse GI + reflections</option></select></label><p class="motion"><img id="motion" src="motion_proxy.webp" alt="Beauty, detail plus Phoenix, and the selected experimental lighting in motion"></p></details>
+<details><summary>All measured configurations</summary><p>Three counterbalanced repeats; 64 measured frames per repeat. One-feature reductions start from Beauty. Their savings overlap and cannot be added together.</p><div class="table"><table><thead><tr><th>Configuration</th><th>Total GPU ms</th><th>Scene ms</th><th>Phoenix ms</th><th>95th percentile</th></tr></thead><tbody id="rows"></tbody></table></div></details>
+<p><a href="../RENDER_BUDGET_RESEARCH.md">Read the research and implementation notes</a> · <a href="measurements.csv">Measurements</a> · <a href="validation.json">Validation</a> · <a href="provenance.json">Provenance</a></p>
+</main>
+<script>
+const names=['beauty_off','detail_nr','soft_nr','proxy_contact_nr','sparse_nr','sparse_shadowed_nr'];
+const $=id=>document.getElementById(id);let stats;
+function choices(){const all=$('view').value==='room'||$('view').value==='person0';for(const side of ['left','right']){const old=$(side).value;$(side).replaceChildren();for(const [label,list] of [['Budget comparisons',names],['Isolated experiments',all?Object.keys(stats).filter(n=>!names.includes(n)):[]]]){if(!list.length)continue;const group=document.createElement('optgroup');group.label=label;for(const name of list){const o=document.createElement('option');o.value=name;o.textContent=stats[name].label;group.append(o);}$(side).append(group);}$(side).value=(all||names.includes(old))&&stats[old]?old:side==='left'?'beauty_off':'proxy_contact_nr';}}
+function update(){for(const side of ['left','right']){const name=$(side).value,s=stats[name];const input=$('source').checked&&names.includes(name);$(side+'Image').src=`images/${$('view').value}_${name}${input?'_input':''}.jpg`;$(side+'Caption').replaceChildren();const title=document.createElement('strong');title.textContent=s.label+(input?' · native input':'');const cost=document.createElement('span');cost.className='cost';cost.textContent=` — ${s.processing_gpu_ms.toFixed(2)} ms GPU`;$(side+'Caption').append(title,cost);}$('variantNote').textContent=[$('left').value,$('right').value].some(n=>n.startsWith('sparse'))?'Sparse lighting is an experimental failure: visible grain remains after Phoenix. It is included to show the tradeoff.':$('source').checked?'Native-input exports are available for the six main budget comparisons. Isolated experiments continue to show their final image.':'';}
+fetch('measurements.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{stats=data;choices();for(const [name,s] of Object.entries(stats)){const tr=document.createElement('tr');for(const v of [s.label,...['processing_gpu_ms','scene_gpu_ms','network_gpu_ms','gpu_p95_ms'].map(k=>s[k].toFixed(3))]){const td=document.createElement('td');td.textContent=v;tr.append(td);}$('rows').append(tr);}$('status').textContent='RTX 5080 · 1920 × 1080 · 4,800 measured frames · full Phoenix workload unchanged';update();}).catch(e=>$('status').textContent='Unable to load measurements: '+e.message);
+$('view').addEventListener('change',()=>{if(stats){choices();update();}});
+for(const id of ['left','right','source'])$(id).addEventListener('change',()=>stats&&update());
+$('motionChoice').addEventListener('change',()=>$('motion').src=`motion_${$('motionChoice').value}.webp`);
+for(const id of ['leftImage','rightImage'])$(id).addEventListener('click',()=>window.open($(id).src,'_blank','noopener'));
+</script>
+</html>

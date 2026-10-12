@@ -1,0 +1,182 @@
+{
+  "source_commit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+  "people": [
+    {
+      "name": "Female_Adult_01",
+      "gender": "f",
+      "label": "Woman - pink shirt",
+      "idle": "idle_waiting",
+      "existing": true,
+      "category": "Avatars/Adults",
+      "activity": "take_picture",
+      "role": "photographer",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_01",
+      "gender": "m",
+      "label": "Man - striped polo",
+      "idle": "idle_waiting",
+      "existing": true,
+      "category": "Avatars/Adults",
+      "activity": "idle_waiting",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_08",
+      "gender": "f",
+      "label": "Woman - grey graphic top",
+      "idle": "idle_waiting",
+      "existing": true,
+      "category": "Avatars/Adults",
+      "activity": "cell_phone_textmessage",
+      "role": "phone",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_02",
+      "gender": "f",
+      "label": "Woman - white blouse and vest",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "sit_chair_idle_look_around",
+      "role": "seated",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_05",
+      "gender": "f",
+      "label": "Woman - pink jacket",
+      "idle": "gestic_talk_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_talk_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_10",
+      "gender": "f",
+      "label": "Woman - black abaya",
+      "idle": "gestic_listen_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_listen_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_14",
+      "gender": "f",
+      "label": "Woman - beige cardigan",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "sit_chair_idle_relaxed_01",
+      "role": "seated",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_02",
+      "gender": "m",
+      "label": "Man - grey sweater",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "cell_phone_textmessage",
+      "role": "phone",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_04",
+      "gender": "m",
+      "label": "Man - dark jacket",
+      "idle": "gestic_talk_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_talk_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_08",
+      "gender": "m",
+      "label": "Man - blue business shirt",
+      "idle": "gestic_listen_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_listen_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_12",
+      "gender": "m",
+      "label": "Man - denim jacket",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "idle_look_around",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_18",
+      "gender": "m",
+      "label": "Man - grey hood",
+      "idle": "gestic_listen_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_listen_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Business_Female_01",
+      "gender": "f",
+      "label": "Exhibition guide",
+      "category": "Avatars/Professions",
+      "activity": "gestic_presentation_left",
+      "idle": "gestic_presentation_left",
+      "role": "guide",
+      "facial": true
+    },
+    {
+      "name": "Security_Male_01",
+      "gender": "m",
+      "label": "Gallery security",
+      "category": "Avatars/Professions",
+      "activity": "idle_look_around",
+      "idle": "idle_look_around",
+      "role": "guard",
+      "facial": true
+    },
+    {
+      "name": "Female_Child_01",
+      "gender": "f",
+      "label": "Girl visiting with family",
+      "category": "Avatars/Children",
+      "activity": "gestic_listen_neutral",
+      "idle": "gestic_listen_neutral",
+      "role": "child",
+      "facial": true
+    },
+    {
+      "name": "Male_Child_01",
+      "gender": "m",
+      "label": "Boy visiting with family",
+      "category": "Avatars/Children",
+      "activity": "idle_look_around",
+      "idle": "idle_look_around",
+      "role": "child",
+      "facial": true
+    }
+  ],
+  "animals": [
+    {
+      "name": "Dog_Beagle_01",
+      "category": "Animals",
+      "label": "Beagle exhibit",
+      "role": "animal"
+    },
+    {
+      "name": "Deer_Roe_Tabby_01",
+      "category": "Animals",
+      "label": "Roe deer exhibit",
+      "role": "animal"
+    }
+  ]
+}

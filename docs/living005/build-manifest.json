@@ -1,0 +1,566 @@
+{
+  "schema": "gallery-build/1",
+  "runtime": "standalone-phoenix-gallery",
+  "files": [
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\analyze_detail.py",
+      "sha256": "2ef3f066b2deae7a62413d3124240a32320f22d5092b37971eaa37597c2bcda1"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\analyze_research.py",
+      "sha256": "ef69fc2d86ecac7a78eb9919c3e8e22954644d0fb61cb7c82331983194578f2b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\assets.py",
+      "sha256": "c1a4e85ee5e285a1a0ed059b099218a4a754522312d372358cbab1c60e7f6ec3"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\bake_living_rigs.py",
+      "sha256": "200ef42d1f43529e50d26e5690324a76054820560223672587e8a8475d904b3f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\bake_rocketbox.py",
+      "sha256": "9ebade32fcf9bc0eeffbe8da6eaed19e2b34b6b2c93084856e2aa5e839cbc0e2"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\beauty_compare.inc",
+      "sha256": "b29f722629f81ec8d56c337e5c6fb54b87f31cf72e9e00d26f448693734a6498"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\beauty_texture.inc",
+      "sha256": "3d1d71f87a03c68d82b42f50c9087c8d45a6fe2697ad16d3201ce6e8a14c0f6b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\build.py",
+      "sha256": "fcdd95206e3fcba76ef86740f62e91d6dcc12ad7388772777fb78b7d02b1cbb6"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\control_panel.inc",
+      "sha256": "98acdb42b8d1827565ceac0bb1de2df4997b16fada616ab1c0008ab6b9bc68e8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\CREDITS.md",
+      "sha256": "9ceabd13bd8c6f237e381e3fc05a0035a3794ba127e3050e056b57ea46f3a905"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\crowd_check.inc",
+      "sha256": "71ad34e601615518e88a2078c609e0a1de382598e61975321339fbe1970a5496"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\current_check.inc",
+      "sha256": "1e96b70be27bb4206c83d2e77d929df772773afd482ebb286c854d8adce8b242"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\detail_check.inc",
+      "sha256": "15808dfc403b0c6f439fb3934db367019078d8690be690520b3123fe0424d1ec"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\detail_review.inc",
+      "sha256": "b3d395890876603abdf5d0734707bc685471714bfc867baa9fd909374f4ffdd8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\environment_filter.hlsl",
+      "sha256": "f446f91047d90d8dc9d073c65387f8d4db6af1365074bf5f411cea948c2b8437"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\export_crowd.py",
+      "sha256": "c6cb0c340ced2bad14c122f66b930ff7012ea9f584e0feb3005356f338741acb"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\export_current.py",
+      "sha256": "f55480e9ae6713a96dfbce82297bfbbf4f45b6231b2c7d4fb786d41ffa201e76"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\export_living.py",
+      "sha256": "3bab5873e0c282439d04990c163294c64490acad261d5769e807a9a8da5c21a7"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\export_people.py",
+      "sha256": "b5fc6be03613f1b66377967e708d73b3e624c43de1332fa8ba66e08982f12c6c"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\finish_lighting.hlsl",
+      "sha256": "c7daf39a2c3c731bf2c87c11c44970b22aa732c5de2bab65a88b479dab3c744d"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\fixed_regression.inc",
+      "sha256": "5891c07759955e382def8b0fae047f6d124a7fe8303dc19abba2b46982cb5fbc"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\gallery_assets.hlsli",
+      "sha256": "b34a178aaac52ab1c3f5bba147ea2dc41d9438fd2e00bf05d65c20c2f3fdee9e"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\gallery_assets.json",
+      "sha256": "00b59cca8ed53573acf6cc42cf301550efd49ad17c8df2058b4d3eed87e07f64"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\gallery_catalog.py",
+      "sha256": "9ed0b1d72b2c0011f3a95ad63fe8b444729225b5ef02c2f15966bbfa99dd194f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\gallery_people.inc",
+      "sha256": "480eebb0eee83f35158058bb00a776e759ea3fba2c95300684c10cbe77d4a0ec"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\gallery_people.json",
+      "sha256": "06235e8a6907830cd0d8f9462c845e5dae94b61886cc389ea6be0c2c7ca2ffbc"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\gbuffer.hlsl",
+      "sha256": "ed786ebbdf8e4c4b1e9190912139a13fb3bdbcbe759c6c73f86f2f2253a01c22"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\heavy_pipeline.inc",
+      "sha256": "846c68325ea672c501d1c2cae309543d6c6ec960b50e3d05ee5699f42d71476b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\launch.py",
+      "sha256": "d9b2535edf315f51d79efc23b1aa6fc9e499abc08a2077183a724c936a6cd6df"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\lighting.hlsl",
+      "sha256": "f1b110019853aa2e0d3eedfdc7ac75f657d3a4bc723ec201aac8c5f04efa565b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\lighting_pipeline.inc",
+      "sha256": "f7c4bad13914762ff8928e64e6b450a05162f1d8ab5c120f17fd522d63530b26"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\living_check.inc",
+      "sha256": "8a8c90d85bd56d8117843e41bc5c2f7377459924fb6e0e51e90b30a7c65f6dcc"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\living_scene.inc",
+      "sha256": "faa14dbd8ad2c26b56e3416d71d33fbcef63e092b50079a0162bb40424dcbef0"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\person_camera.inc",
+      "sha256": "a5db33bf931acfe63e8f20b79b3532c853616bcbee6bf2b420f7dc66e961987f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\person_check.inc",
+      "sha256": "67aae1e960efd72a4e463d1c2df979bc8a561681e8a89900ce839c04bdf8da62"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\phoenix_dependency.py",
+      "sha256": "5d7278e06ce497ef5b4e83ab22cfe204afc57ceb7ac12a3a69e727b101600c86"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\prepare_rocketbox.py",
+      "sha256": "e572438a2536c615e3c4719ff76931cf96f180c67322231c762ffca02ad4acb8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\prepare_rocketbox_mips.py",
+      "sha256": "6f772d519fe4dddbcc7c4629f650620b8332b8331c74ef92c055d41396c2ebf4"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\prepare_rocketbox_textures.py",
+      "sha256": "021ebb02fb1a534e78cf85505d2daa240a0747fe062b000696a235bd63b0fdf5"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\ray_lighting.hlsl",
+      "sha256": "2497d765736fe8699444b7da20cf3084e090ac43b44f38fd336c6df7d51c046d"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\README.md",
+      "sha256": "ecb20faccb797c23940b1de4dc739d856a31777558b72ca877cda7923d373f4f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\readme_capture.inc",
+      "sha256": "ccdb3a58b6f7ed2cbf74a92ed5fd81bdb150b670eef9797644877e1afbbd9a81"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\research_check.inc",
+      "sha256": "2277de9380f0615718be2f009a663eef7efd93543406e9d31ffe550292c12271"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\resize_check.inc",
+      "sha256": "6ea800eb90794a21d58ef9fadc15d481e108dc6430d1e4965ac522cf1e0becf1"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\run_beauty_check.ps1",
+      "sha256": "a886b76922fb8c65281f0663dc9896330119e16a4846c42dca760779c170830c"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\scene.cpp",
+      "sha256": "9ada7f888ca2b330636dee7b09cbdad86eba7de9ac4b723ab19ee3219ec883ad"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\scene.hlsl",
+      "sha256": "60995fd0ae478ad6c5e9f26add51924f3d0a9083ce20411bf7d4ea7ea09f8a59"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\seal_build.py",
+      "sha256": "e7a6eb44b6e84bd653f278437ee529e16952cf3f103c5844e8678b87ef15a1c2"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\skeletal_runtime.inc",
+      "sha256": "1cb605ae3ac7985621fb81001843d1a2aaf7aeecbc7395d70c07baba52b7fd99"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\skeletal_skin.hlsl",
+      "sha256": "cad3ec696026d58cb95007ee6e635fbacb5f2f1d9d9f4bbefec99364c44bd50e"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\skin.hlsl",
+      "sha256": "d788a6970a72a248ca30de795a5d52f771c826e303b3581126158c2907fd84e1"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\test_assets.py",
+      "sha256": "3fa6e141f935497fd5db3bce1c02b77ed990a47bf43b51a7ddb6a9fd18df9483"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\test_phoenix_dependency.py",
+      "sha256": "0698e31ac1c9319534478d3f5d01e3d3135f547b2d83bed2fd78c728599779a1"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\THIRD_PARTY_NOTICES.md",
+      "sha256": "f5dd8c87347b50cf094fafd6e299c2faaf97259af81e52efc9462875cdb45341"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\verify_asset_pack.py",
+      "sha256": "9885ff1ca9b5c3d43b4b32b395790c72b1ae8ceb1e8da7be24b5e718ffe17fdb"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\verify_asset_setup.py",
+      "sha256": "8758e20de433e0cfc4d0e41a1c1b7198ff4856c2da1a6858d5142513f0f779ed"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\visitor_scene.inc",
+      "sha256": "68721d98256c0df3391c0e6ecad76b871d03ba349a19c00a60016412ac5c11cd"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\window_decode.hlsl",
+      "sha256": "904f0426e1f897d58e9313ff7e53072bc25a9f55bc02f1387c76b6301b496caa"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\window_resample.hlsl",
+      "sha256": "a9f60157a4f1990ee794bf46a605fb5dd5ca94e2188420b86f6bd82021cb1a0e"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\source\\window_runtime.inc",
+      "sha256": "c5429d39e9a798a31d259f709b7c41ab3e410223d7f63dc4fb0955bddc4ee9a9"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\scene_lab.exe",
+      "sha256": "38a2ea2071df919dda547ee88e2d6a4726ede9dba10cd89fe7c7c5a17c6aa49a"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\ray_lighting.dxil",
+      "sha256": "42a425f4f73a087af0068dae1203b95690782780c24688018864766098e3f14e"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\build017\\phoenix_dependency.json",
+      "sha256": "d5dcc1fdad0f748f36a3a58a63bda379b51f5d627478c87e15e298626510f1a8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\.gitmodules",
+      "sha256": "cc8434120bad4343f48f481cc06a15f5d4d5c04f13303e4fd81cc53e8a94c2dd"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\direct.h",
+      "sha256": "9fc1c2cf77dd4b5c773deb6d6caba2213514612da5bec52763fb7eea76e7bdd0"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\production_direct.h",
+      "sha256": "fe8a9ec96a7315a34270462448a8626afc0edd5a387fa89f260a7e0c7e6c2476"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\session\\session.h",
+      "sha256": "6670eb6d22637a2deb7c525e38bc47ffb7a2de6c022d1d834313eeb3770ba31b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\network\\network.h",
+      "sha256": "68946e5057bc5ea38544bbd14332c85c5062d209f60821e96bf357be9cc2e806"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\network\\production_network.h",
+      "sha256": "78f6402751c7c9a24302bd151e9ae57498a1d620158dcd6a63f98498cfa5addf"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\model\\bundle_loader.h",
+      "sha256": "df549c29dd77d78fb8c1afc727cedd97e132134d47ddc1c9b301c896ecc7ab40"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\model\\launch_plan.h",
+      "sha256": "b094f653f36297166b178d658e98cc8021c671e8aca99ca0ca55aeed00e69665"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\model\\weight_source.h",
+      "sha256": "f21e0f5436bbb8de65d7c74be10a51dd2e0c17139bd4ecfcb01cacd3e6494c29"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nlohmann\\json.hpp",
+      "sha256": "5f09d1eebe9b3557f21df155869af13bcde79b74a0748f82ca946e8cc088aaa0"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\model\\generated_plan.h",
+      "sha256": "f05d35000c26b3e08bb2b56d91df515f18d095d7504599b3df98904fd94d9af8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\controls.h",
+      "sha256": "9de9fc275ffba49e2760a575dec3efba257a424c21d47c5f8849b24033c74ac3"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\policy.h",
+      "sha256": "beb5eb602dd39c719110a11047757977e0daf2f955740371a92b53fddc77a30f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\runtime\\kernel_module.h",
+      "sha256": "0ff2164dd539e13358be042750453afc789ff4ca7a4d2ed57331861ca26b5853"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\runtime\\device_recovery.h",
+      "sha256": "b8f5273e158a568386e6cd74075f6fee2fec77ac023ba4e7428ec84800f650fb"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi.h",
+      "sha256": "08dff2942af47229107cac336b4698c135ec08f806dbca4fe3b57e6971aecc80"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salstart.h",
+      "sha256": "b6813d5b4de38552c6a98537728c6887fedf60d6de4e804ebc7d0cf679d67e73"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_common.h",
+      "sha256": "d44d5effb2cfb9170ce63cf16b8daa70cf83ca724e221de45150cb2d88d13aa4"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salstart.h",
+      "sha256": "b6813d5b4de38552c6a98537728c6887fedf60d6de4e804ebc7d0cf679d67e73"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salend.h",
+      "sha256": "0580352eecf400b79169a5682e4d875c9c71b4db2ecfcf56a13fa314081b1917"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_sli.h",
+      "sha256": "2c260856c74a9e936bac34b8d737e8906f1b744e3b671a38e9e9405a953eb2b1"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salstart.h",
+      "sha256": "b6813d5b4de38552c6a98537728c6887fedf60d6de4e804ebc7d0cf679d67e73"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salend.h",
+      "sha256": "0580352eecf400b79169a5682e4d875c9c71b4db2ecfcf56a13fa314081b1917"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_surround.h",
+      "sha256": "f81364ad2b30e88ef9233ea68fa709239456b930a86f5a283fcdbb80b9daeed8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salstart.h",
+      "sha256": "b6813d5b4de38552c6a98537728c6887fedf60d6de4e804ebc7d0cf679d67e73"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salend.h",
+      "sha256": "0580352eecf400b79169a5682e4d875c9c71b4db2ecfcf56a13fa314081b1917"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_stereo.h",
+      "sha256": "62f4196fabc1fb031140549d8688f2a86a93f99b4c3ce684c6861cb0fcd87dc5"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salstart.h",
+      "sha256": "b6813d5b4de38552c6a98537728c6887fedf60d6de4e804ebc7d0cf679d67e73"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salend.h",
+      "sha256": "0580352eecf400b79169a5682e4d875c9c71b4db2ecfcf56a13fa314081b1917"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_d3dext.h",
+      "sha256": "2c01bea4c44c4d49354f96c0f75a5bbd63b75fcd2c8dcf7a423218a03548a65d"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salstart.h",
+      "sha256": "b6813d5b4de38552c6a98537728c6887fedf60d6de4e804ebc7d0cf679d67e73"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salend.h",
+      "sha256": "0580352eecf400b79169a5682e4d875c9c71b4db2ecfcf56a13fa314081b1917"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\nvapi\\nvapi_lite_salend.h",
+      "sha256": "0580352eecf400b79169a5682e4d875c9c71b4db2ecfcf56a13fa314081b1917"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\network_policy.h",
+      "sha256": "eb98ecc623d0d2244910a61f5a032a625bcf61c1520723dc788a1cc92b34a82f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\memory.h",
+      "sha256": "0ea93cb8c7f3b5f49d621bb337e9c567cdedc54fbadde58f5c948ae57fcafa5d"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\live_controls.h",
+      "sha256": "28cbfb6f5b1780d619a6236ed882840b9e1ae57745c3f4f93fd9884b196fa53b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\dispatch.h",
+      "sha256": "34925bb6d1901c049afbc4e14df3061bd774b9accdf2e7fc2e5127b8c729dccd"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\dispatch_audit.h",
+      "sha256": "83d8692e5db5f0f19bc927be9bda6e3811ddac9c1d5e218683a1c4bda1aa8f03"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\host_memory.h",
+      "sha256": "abaf060e32005a37b7e4daa37ae7e5e7eb0fa648dfa13bc661b34a3bd548f6e9"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\colour_bridge.h",
+      "sha256": "ae45a00f5d2b92af1d8a94581757c3a50d31ac4acf1e1c9612aa3b19870d8c96"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\shaders\\colour_bridge_bytecode.h",
+      "sha256": "42ac54a095604d5e3c933ef07241d60f7d527406d0dbdbbffa618d91cde8adbc"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\exposure_meter.h",
+      "sha256": "9acb3f216ae557eb6cbafcef4181c1af0e6fdafcf2eff032c5d10b940ca059f5"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\shaders\\meter_bytecode.h",
+      "sha256": "d5c1c38ada5f3e6f674edfb375337a3a21db0575cd9b36fdb6fe60a086454e0e"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\denormalize.h",
+      "sha256": "f0993689b394c537041ffc7d3a510ca61459881c18b181d6f97ff8ee5b72a01c"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\shaders\\denormalize_bytecode.h",
+      "sha256": "0b24ea3c49f6a45d0ffc2f668296aa3e5472ccfe0a9e4f0f5707f43294b0075c"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\routing.h",
+      "sha256": "b1c3e49e8c1badd2cbd12c7d84de8012d028be07969e4dc5f2928665df264e3f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\budget.h",
+      "sha256": "da44213b90ad030b5d172661eaf28136497e64b004591a2ee1e19a6a796fef3f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\device_selection.h",
+      "sha256": "b86f1749eeacb2335a0a0bd495f00fb76fb585be5b314cf090388f56ae144923"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\resolution.h",
+      "sha256": "b35b228bd00df69d866cc674e251eb17d8940c33689799baed911a0ebf103f73"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\compute_pass.h",
+      "sha256": "aefe2d3b863a7722ab37ea4d64a20b1a023f295ae3bdb94909dec74341c71330"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\executor.h",
+      "sha256": "64a997e6fb0568bbf9ad3a959089aed03ba6a8cbec5fd87d2f273c89db047144"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\guides.h",
+      "sha256": "93d86e9f1d92fe37957ef3274a920d318d65ecd1e2dd9fbe9daf3ef0d270a31e"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\resolution_bridge.h",
+      "sha256": "543dc21c490be32ab184ae9d6ead6c14f25a4578f4b939884e5e8f93b1e0daee"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\src\\native\\support\\temporal_upscaler.h",
+      "sha256": "f19cc78f1948ec5001228a4b195ea382b868bd196c07f51d01043b17a80a7034"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\xess\\xess_d3d12.h",
+      "sha256": "e740a3fc97e3e42faf7b3cbf23d64c5484a297e70523fc44b98433d31774fb98"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\third_party\\xess\\xess.h",
+      "sha256": "d6f09f2dfa7050c09c679fbada2281cef421cdb14a51afd94efd9ac366d71677"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\gallery_people.inc",
+      "sha256": "480eebb0eee83f35158058bb00a776e759ea3fba2c95300684c10cbe77d4a0ec"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\heavy_pipeline.inc",
+      "sha256": "846c68325ea672c501d1c2cae309543d6c6ec960b50e3d05ee5699f42d71476b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\skeletal_runtime.inc",
+      "sha256": "1cb605ae3ac7985621fb81001843d1a2aaf7aeecbc7395d70c07baba52b7fd99"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\visitor_scene.inc",
+      "sha256": "68721d98256c0df3391c0e6ecad76b871d03ba349a19c00a60016412ac5c11cd"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\beauty_compare.inc",
+      "sha256": "b29f722629f81ec8d56c337e5c6fb54b87f31cf72e9e00d26f448693734a6498"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\person_camera.inc",
+      "sha256": "a5db33bf931acfe63e8f20b79b3532c853616bcbee6bf2b420f7dc66e961987f"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\beauty_texture.inc",
+      "sha256": "3d1d71f87a03c68d82b42f50c9087c8d45a6fe2697ad16d3201ce6e8a14c0f6b"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\window_runtime.inc",
+      "sha256": "c5429d39e9a798a31d259f709b7c41ab3e410223d7f63dc4fb0955bddc4ee9a9"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\control_panel.inc",
+      "sha256": "98acdb42b8d1827565ceac0bb1de2df4997b16fada616ab1c0008ab6b9bc68e8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\readme_capture.inc",
+      "sha256": "ccdb3a58b6f7ed2cbf74a92ed5fd81bdb150b670eef9797644877e1afbbd9a81"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\detail_check.inc",
+      "sha256": "15808dfc403b0c6f439fb3934db367019078d8690be690520b3123fe0424d1ec"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\current_check.inc",
+      "sha256": "1e96b70be27bb4206c83d2e77d929df772773afd482ebb286c854d8adce8b242"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\detail_review.inc",
+      "sha256": "b3d395890876603abdf5d0734707bc685471714bfc867baa9fd909374f4ffdd8"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\person_check.inc",
+      "sha256": "67aae1e960efd72a4e463d1c2df979bc8a561681e8a89900ce839c04bdf8da62"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\research_check.inc",
+      "sha256": "2277de9380f0615718be2f009a663eef7efd93543406e9d31ffe550292c12271"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\crowd_check.inc",
+      "sha256": "71ad34e601615518e88a2078c609e0a1de382598e61975321339fbe1970a5496"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\living_check.inc",
+      "sha256": "8a8c90d85bd56d8117843e41bc5c2f7377459924fb6e0e51e90b30a7c65f6dcc"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\resize_check.inc",
+      "sha256": "6ea800eb90794a21d58ef9fadc15d481e108dc6430d1e4965ac522cf1e0becf1"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\fixed_regression.inc",
+      "sha256": "5891c07759955e382def8b0fae047f6d124a7fe8303dc19abba2b46982cb5fbc"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\build\\kernels_cddbcdc19c125e7f\\native_manifest.json",
+      "sha256": "3a8471fc07390a2dccab10bb5183d59f30a0558f6150efec6cfd523d245f328c"
+    },
+    {
+      "path": "E:\\Games\\Reshade\\phoenix-gallery\\external\\phoenix\\build\\kernels_cddbcdc19c125e7f\\native_graph.json",
+      "sha256": "b9a45c8c6be69fff4d6794edae17a5a851d49e4bc452c88fe8c3270780f40950"
+    }
+  ]
+}

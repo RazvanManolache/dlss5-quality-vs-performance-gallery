@@ -1,0 +1,318 @@
+{
+  "people": [
+    {
+      "name": "Female_Adult_01",
+      "gender": "f",
+      "label": "Woman - pink shirt",
+      "idle": "idle_waiting",
+      "existing": true,
+      "category": "Avatars/Adults",
+      "activity": "take_picture",
+      "role": "photographer",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_01",
+      "gender": "m",
+      "label": "Man - striped polo",
+      "idle": "idle_waiting",
+      "existing": true,
+      "category": "Avatars/Adults",
+      "activity": "idle_waiting",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_08",
+      "gender": "f",
+      "label": "Woman - grey graphic top",
+      "idle": "idle_waiting",
+      "existing": true,
+      "category": "Avatars/Adults",
+      "activity": "cell_phone_textmessage",
+      "role": "phone",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_02",
+      "gender": "f",
+      "label": "Woman - white blouse and vest",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "sit_chair_idle_look_around",
+      "role": "seated",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_05",
+      "gender": "f",
+      "label": "Woman - pink jacket",
+      "idle": "gestic_talk_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_talk_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_10",
+      "gender": "f",
+      "label": "Woman - black abaya",
+      "idle": "gestic_listen_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_listen_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Female_Adult_14",
+      "gender": "f",
+      "label": "Woman - beige cardigan",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "sit_chair_idle_relaxed_01",
+      "role": "seated",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_02",
+      "gender": "m",
+      "label": "Man - grey sweater",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "cell_phone_textmessage",
+      "role": "phone",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_04",
+      "gender": "m",
+      "label": "Man - dark jacket",
+      "idle": "gestic_talk_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_talk_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_08",
+      "gender": "m",
+      "label": "Man - blue business shirt",
+      "idle": "gestic_listen_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_listen_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_12",
+      "gender": "m",
+      "label": "Man - denim jacket",
+      "idle": "idle_look_around",
+      "category": "Avatars/Adults",
+      "activity": "idle_look_around",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Male_Adult_18",
+      "gender": "m",
+      "label": "Man - grey hood",
+      "idle": "gestic_listen_neutral",
+      "category": "Avatars/Adults",
+      "activity": "gestic_listen_neutral",
+      "role": "visitor",
+      "facial": true
+    },
+    {
+      "name": "Business_Female_01",
+      "gender": "f",
+      "label": "Exhibition guide",
+      "category": "Avatars/Professions",
+      "activity": "gestic_presentation_left",
+      "idle": "gestic_presentation_left",
+      "role": "guide",
+      "facial": true
+    },
+    {
+      "name": "Security_Male_01",
+      "gender": "m",
+      "label": "Gallery security",
+      "category": "Avatars/Professions",
+      "activity": "idle_look_around",
+      "idle": "idle_look_around",
+      "role": "guard",
+      "facial": true
+    },
+    {
+      "name": "Female_Child_01",
+      "gender": "f",
+      "label": "Girl visiting with family",
+      "category": "Avatars/Children",
+      "activity": "gestic_listen_neutral",
+      "idle": "gestic_listen_neutral",
+      "role": "child",
+      "facial": true
+    },
+    {
+      "name": "Male_Child_01",
+      "gender": "m",
+      "label": "Boy visiting with family",
+      "category": "Avatars/Children",
+      "activity": "idle_look_around",
+      "idle": "idle_look_around",
+      "role": "child",
+      "facial": true
+    }
+  ],
+  "stats": {
+    "beauty_off": {
+      "processing_gpu_ms": 39.34849822222222,
+      "frame_wall_ms": 42.42687152777777,
+      "network_gpu_ms": 0.000372,
+      "gbuffer_gpu_ms": 2.161253777777778,
+      "actor_triangles": 130807.0,
+      "gpu_p95_ms": 44.686264,
+      "repeat_gpu_means": [
+        38.05633,
+        40.425581333333334,
+        39.563583333333334
+      ]
+    },
+    "detail_nr_distance": {
+      "processing_gpu_ms": 6.999003333333333,
+      "frame_wall_ms": 10.949594444444443,
+      "network_gpu_ms": 3.9271664444444445,
+      "gbuffer_gpu_ms": 1.9040148888888888,
+      "actor_triangles": 72572.0,
+      "gpu_p95_ms": 7.5428416,
+      "repeat_gpu_means": [
+        6.9783426666666655,
+        6.938454,
+        7.080213333333333
+      ]
+    },
+    "detail_nr_full": {
+      "processing_gpu_ms": 7.268808444444444,
+      "frame_wall_ms": 10.749956944444444,
+      "network_gpu_ms": 3.960571111111111,
+      "gbuffer_gpu_ms": 2.1498864444444448,
+      "actor_triangles": 130807.0,
+      "gpu_p95_ms": 7.7567616,
+      "repeat_gpu_means": [
+        7.165274666666666,
+        7.257009333333333,
+        7.384141333333333
+      ]
+    },
+    "detail_nr_reduced": {
+      "processing_gpu_ms": 7.070423999999999,
+      "frame_wall_ms": 10.645310416666668,
+      "network_gpu_ms": 3.978692,
+      "gbuffer_gpu_ms": 1.9335220000000004,
+      "actor_triangles": 77749.0,
+      "gpu_p95_ms": 7.6142144,
+      "repeat_gpu_means": [
+        7.137958,
+        7.012415999999999,
+        7.060897999999999
+      ]
+    },
+    "detail_off": {
+      "processing_gpu_ms": 3.2446784444444443,
+      "frame_wall_ms": 6.485175000000001,
+      "network_gpu_ms": 0.00011955555555555557,
+      "gbuffer_gpu_ms": 2.1381997777777775,
+      "actor_triangles": 130807.0,
+      "gpu_p95_ms": 3.6792736,
+      "repeat_gpu_means": [
+        3.2007526666666664,
+        3.2015860000000003,
+        3.331696666666667
+      ]
+    }
+  },
+  "verification": {
+    "passed": true,
+    "build": "build017",
+    "visitors": 16,
+    "animals": 2,
+    "objects": 316,
+    "timed_frames": 720,
+    "rendered_primary_frames": 1937,
+    "comparison_frames": 21,
+    "shared_textures": 74,
+    "maximum_gpu_skin_error_m": 3.5762786865234375e-07,
+    "maximum_blender_skin_error_m": 4.792177298929096e-07,
+    "d3d12_errors": 0,
+    "desktop_capture": false,
+    "windows_hidden": true,
+    "face_toggle_changes_source": true,
+    "camera_matches": true,
+    "resize": true,
+    "single_view": true,
+    "asset_pack_bytes": 1019641764,
+    "installed_asset_bytes": 3739334231,
+    "phoenix_commit": "7c5a815b7b15a3b350b139ea9f3d451b87c587ce",
+    "exact_resolution_checks": [
+      {
+        "width": 1537,
+        "height": 863,
+        "neural_width": 1537,
+        "neural_height": 863,
+        "input_to_output_change": 0.022950666025280952,
+        "finite_output": true
+      },
+      {
+        "width": 1919,
+        "height": 1079,
+        "neural_width": 1919,
+        "neural_height": 1079,
+        "input_to_output_change": 0.022587643936276436,
+        "finite_output": true
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "neural_width": 1920,
+        "neural_height": 1080,
+        "input_to_output_change": 0.02272201143205166,
+        "finite_output": true
+      },
+      {
+        "width": 2560,
+        "height": 1080,
+        "neural_width": 2560,
+        "neural_height": 1080,
+        "input_to_output_change": 0.021581338718533516,
+        "finite_output": true
+      },
+      {
+        "width": 397,
+        "height": 257,
+        "neural_width": 397,
+        "neural_height": 257,
+        "input_to_output_change": 0.019141878932714462,
+        "finite_output": true
+      },
+      {
+        "width": 729,
+        "height": 973,
+        "neural_width": 729,
+        "neural_height": 973,
+        "input_to_output_change": 0.02493676356971264,
+        "finite_output": true
+      },
+      {
+        "width": 963,
+        "height": 541,
+        "neural_width": 963,
+        "neural_height": 541,
+        "input_to_output_change": 0.02164648286998272,
+        "finite_output": true
+      }
+    ],
+    "build_manifest_sha256": "48ef4031929b835ea7c3046d5e37eeeca4b539fc89cc6b83b76fb6a9fce87253",
+    "run_sha256": "a1e185a747f3c353ade75e315d1034ddb4801d36b353e5afb40eb97259c48514",
+    "limit": "Image change and geometric agreement do not establish perceived quality, identity preservation or temporal equivalence."
+  }
+}

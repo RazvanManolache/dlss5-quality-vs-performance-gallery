@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Current gallery comparison</title>
+<style>
+[hidden]{display:none!important}
+:root{color-scheme:dark;font:16px system-ui;background:#10141b;color:#e6edf4}body{max-width:1440px;margin:auto;padding:28px}h1{font-size:clamp(28px,4vw,46px);margin:10px 0}p{max-width:1000px;line-height:1.55;color:#bac8d6}.eyebrow{color:#73d5d9;letter-spacing:.13em;font-size:12px;text-transform:uppercase}.controls{display:flex;flex-wrap:wrap;gap:16px;align-items:end;margin:22px 0;padding:16px;background:#19212d;border-radius:10px}label{display:grid;gap:6px;font-size:13px;color:#b9c8d8}select,button{font:inherit;color:#e6edf4;background:#273343;border:1px solid #536378;padding:9px;border-radius:6px}button{cursor:pointer}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card{background:#19212d;border-radius:10px;overflow:hidden}.caption{padding:14px}.caption b{display:block;font-size:17px}.cost{display:block;color:#73d5d9;padding-top:7px}.card img{display:block;width:100%;height:570px;object-fit:contain;background:#0b1017}.room .card img{height:auto}.note{font-size:14px}details{background:#19212d;padding:18px;border-radius:10px;margin:20px 0}summary{cursor:pointer;font-size:18px}table{border-collapse:collapse;width:100%;font-size:14px;margin-top:16px}td,th{padding:9px;text-align:left;border-bottom:1px solid #354253}a{color:#7cdfe3}.motion{display:block;max-width:1200px;width:100%;margin:20px auto}.status{color:#8cd29c}@media(max-width:700px){body{padding:14px}.grid{gap:6px}.caption{padding:9px}.caption b{font-size:13px}.card img{height:360px}.cost{font-size:12px}}
+</style>
+<div class="eyebrow">Phoenix · build010 · 2026-10-12 · 1920 × 1080 · renderer readback</div>
+<h1>Current gallery comparison</h1>
+<p>Fresh captures from one current build. Inspect all three visitors up close, compare the shipped presets around the gallery, or watch the same followed visitor move through each lighting mode.</p>
+<div class="controls">
+<label>View<select id="view"><option value="focus">Focus on a person</option><option value="room">Whole gallery</option></select></label>
+<label id="personControl">Person<select id="person"><option value="0">Woman · pink shirt</option><option value="1">Man · striped polo</option><option value="2">Woman · grey top</option></select></label>
+<button id="previousPerson">Previous person</button><button id="nextPerson">Next person</button>
+<label id="framingControl">Framing<select id="framing"><option value="2">Face</option><option value="1">Upper body</option><option value="0">Whole person</option></select></label>
+<label>Show<select id="show"><option value="all">All three</option><option value="0">Reference only</option><option value="1">Very light + Phoenix only</option><option value="2" selected>Light + detail only</option></select></label>
+<label id="referenceControl">Reference<select id="reference"><option value="beauty">Beauty · Phoenix off</option><option value="middle">Middle · Phoenix off</option><option value="light_off">Very light · Phoenix off</option></select></label>
+<label>Phoenix scope<select id="scope"><option value="protected">Protected surfaces</option><option value="full">Full frame</option></select></label>
+<label>Improved light preset<select id="preset"><option value="all_detail">Light + detail</option><option value="all_detail_shadows">Light + detail + soft shadows</option></select></label>
+<button id="motionButton">Show motion comparison</button>
+</div>
+<div id="comparison" class="grid">
+<div class="card"><div class="caption"><b id="label0">Beauty · Phoenix off</b><span class="cost" id="cost0"></span></div><img id="image0" alt="Beauty reference"></div>
+<div class="card"><div class="caption"><b>Original light + Phoenix</b><span class="cost" id="cost1"></span></div><img id="image1" alt="Original light plus Phoenix"></div>
+<div class="card"><div class="caption"><b id="label2">Light + detail + Phoenix</b><span class="cost" id="cost2"></span></div><img id="image2" alt="Improved light plus Phoenix"></div>
+</div>
+<img id="motion" class="motion" hidden alt="Matched six-second sequence: Beauty, original light, detail light, detail light with soft shadows">
+<p id="result" class="status"></p>
+<p id="timingNote" class="note"></p>
+<p id="scopeNote" class="note"></p>
+<details><summary>What changed, and what still differs from Beauty</summary>
+<p>Light + detail removes the +1.6 mip bias on textured surfaces, restores normal-map strength, and exempts visitors, vases and the horse from the broad lighting blur. The same mip chains, person geometry, alpha-tested hair and animations were already loaded; memory allocations and assets are unchanged. The optional shadow preset increases direct samples only on clothing from one to four.</p>
+<p>Both improved presets keep Very light's geometry, zero indirect-light samples and sky reflections. Beauty still has 20 direct samples, 16 indirect samples, 24 reflection samples, extra bounce lighting and skin diffusion. These inputs preserve more authored surface detail. Lighting and overall quality are not equivalent to Beauty.</p>
+<p>Motion clips use the same six seconds and the same real camera following the pink-shirt visitor, with a centered image region shown for inspection. More detail also exposes existing raster edges and shadow changes. This eight-frame-per-second evidence clip is a visual check, not a high-frame-rate flicker certification.</p>
+</details>
+<details><summary>All measurements and validation</summary>
+<p class="status">Fresh timing, person-camera, controls/motion and asset-setup checks passed for build010. Full network on every enabled frame; no D3D12 errors; no NVIDIA NR implementation loaded. Hidden windows, no presentation, no desktop capture.</p>
+<table><thead><tr><th>Condition</th><th>GPU ms</th><th>Network ms</th><th>Offscreen frame ms</th></tr></thead><tbody id="rows"></tbody></table>
+<p><a href="measurements.json">Complete timings and repeat means</a> · <a href="measurements.csv">CSV</a> · <a href="validation.json">Readback and motion verification</a> · <a href="provenance.json">Build and capture provenance</a> · <a href="asset_setup.json">Asset setup</a></p>
+<p>Images use linear-to-sRGB conversion, matching crops and uniform resizing only. No sharpening or generated images. Protected clothing pixels are checked against the rendered input exactly. All three faces are checked for visibility in each person-camera framing.</p>
+</details>
+<details><summary>Current native controls</summary><img src="controls.png" alt="Current collapsible native panel with person and framing controls" style="max-width:100%;height:auto"></details>
+<script>
+const $=id=>document.getElementById(id);let stats,people,showMotion=false;
+function update(){
+ if(!stats)return;
+ const focus=$('view').value==='focus',scope=$('scope').value,preset=$('preset').value,room=$('view').value==='room';
+ for(const id of ['personControl','previousPerson','nextPerson','framingControl'])$(id).hidden=!focus;
+ for(const id of ['scope','preset']){$(id).disabled=focus;$(id).parentElement.hidden=focus;}
+ $('motionButton').hidden=focus;
+ $('comparison').classList.toggle('room',room||focus);
+ const single=$('show').value;
+ $('comparison').style.gridTemplateColumns=single==='all'?'':'minmax(0,1fr)';
+ for(let i=0;i<3;i++)$('image'+i).closest('.card').hidden=single!=='all'&&single!==String(i);
+ $('referenceControl').hidden=focus;
+ if(focus){
+  $('label0').textContent='Beauty · Phoenix off';
+  if(!people){$('result').textContent='Loading focused camera views…';return;}
+  const item=people.views.find(v=>v.person===Number($('person').value)&&v.framing===Number($('framing').value));
+  ['beauty','light','detail'].forEach((key,i)=>{$('image'+i).src='people/'+item.images[key];$('cost'+i).textContent=item.gpu_ms[key].toFixed(3)+' ms GPU · camera-view sample';});
+  $('label2').textContent='Light + detail + Phoenix';
+  $('result').textContent=item.name+' · '+item.framing_name+' · matched camera in all three images';
+  $('scopeNote').textContent='A real close camera in the 3D scene, with a clear angle around the exhibit stands. Phoenix processes the full frame. Choose a single image above or click an image to inspect the complete 1920 × 1080 render. In the native app this camera follows the walking person.';
+  $('timingNote').textContent='These focused-view timings are medians of eight warm GPU samples, separate from the repeated gallery benchmark below. GPU time includes rendering and the complete Phoenix network, excluding capture and presentation; it is not delivered FPS.';
+ }else{
+  const reference=$('reference').value,keys=[reference,'light_'+scope,preset+'_'+scope];$('label0').textContent=$('reference').selectedOptions[0].textContent;
+  keys.forEach((key,i)=>{$('image'+i).src='scene_'+key+'.jpg';$('cost'+i).textContent=stats[key].processing_gpu_ms.toFixed(3)+' ms GPU';});
+  $('label2').textContent=(preset==='all_detail'?'Light + detail':'Detail + soft shadows')+' + Phoenix';
+  let delta=stats[keys[2]].processing_gpu_ms-stats[keys[1]].processing_gpu_ms;
+  $('result').textContent='Measured change from original light + Phoenix: '+(delta>=0?'+':'')+delta.toFixed(3)+' ms. Inspect the three repeat means in the complete measurements before interpreting small differences.';
+  $('scopeNote').textContent=scope==='protected'?'Protected mode: the shirt is copied exactly from the renderer. Its improved folds come from preserving real source detail; Phoenix modifies selected scanned surfaces and faces.':'Full-frame mode: Phoenix processes the whole image, including the shirt. The improved source gives it the folds and patterns that the original light input lacked.';
+  $('timingNote').textContent='GPU time includes rendering, input preparation, the complete 154-launch Phoenix network and composition, excluding capture and presentation. These are measured GPU milliseconds, not delivered FPS. Three counterbalanced repeats, 64 measured frames per repeat, with matched moving camera, people and lights.';
+ }
+ $('image0').alt=$('label0').textContent;$('image2').alt=$('label2').textContent;
+ $('motion').hidden=focus||!showMotion;if(!focus&&showMotion)$('motion').src='motion_'+scope+'.webp';$('motionButton').textContent=showMotion&&!focus?'Hide motion comparison':'Show motion comparison';
+}
+for(const id of ['view','scope','preset','person','framing','show','reference'])$(id).addEventListener('change',update);
+for(const [id,step] of [['previousPerson',-1],['nextPerson',1]])$(id).onclick=()=>{$('person').value=String((Number($('person').value)+step+3)%3);update();};
+for(let i=0;i<3;i++){$('image'+i).style.cursor='zoom-in';$('image'+i).onclick=()=>window.open($('image'+i).src,'_blank','noopener');}
+$('motionButton').onclick=()=>{showMotion=!showMotion;update();};
+fetch('people/people.json').then(r=>{if(!r.ok)throw Error('Person captures unavailable');return r.json();}).then(data=>{people=data;update();}).catch(error=>{$('result').textContent=error.message;});
+fetch('measurements.json').then(r=>r.json()).then(data=>{stats=data.surfaces;for(const [experiment,values] of Object.entries(data)){for(const [condition,v] of Object.entries(values)){let tr=document.createElement('tr');for(const text of [experiment+' / '+condition,v.processing_gpu_ms.toFixed(3),v.network_gpu_ms.toFixed(3),v.frame_wall_ms.toFixed(3)]){let td=document.createElement('td');td.textContent=text;tr.appendChild(td);}$('rows').appendChild(tr);}}update();}).catch(error=>{$('result').textContent='Open this viewer through the local HTTP server to load measurements.';});
+</script></html>

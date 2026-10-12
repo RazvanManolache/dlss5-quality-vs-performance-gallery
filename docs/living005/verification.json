@@ -1,0 +1,438 @@
+{
+  "passed": true,
+  "build": "build017",
+  "visitors": 16,
+  "animals": 2,
+  "objects": 316,
+  "timed_frames": 720,
+  "rendered_primary_frames": 1937,
+  "comparison_frames": 21,
+  "shared_textures": 74,
+  "maximum_gpu_skin_error_m": 3.5762786865234375e-07,
+  "maximum_blender_skin_error_m": 4.792177298929096e-07,
+  "d3d12_errors": 0,
+  "desktop_capture": false,
+  "windows_hidden": true,
+  "face_toggle_changes_source": true,
+  "camera_matches": true,
+  "resize": true,
+  "single_view": true,
+  "asset_pack_bytes": 1019641764,
+  "installed_asset_bytes": 3739334231,
+  "phoenix_commit": "7c5a815b7b15a3b350b139ea9f3d451b87c587ce",
+  "exact_resolution_checks": [
+    {
+      "width": 1537,
+      "height": 863,
+      "neural_width": 1537,
+      "neural_height": 863,
+      "input_to_output_change": 0.022950666025280952,
+      "finite_output": true
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "neural_width": 1919,
+      "neural_height": 1079,
+      "input_to_output_change": 0.022587643936276436,
+      "finite_output": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "neural_width": 1920,
+      "neural_height": 1080,
+      "input_to_output_change": 0.02272201143205166,
+      "finite_output": true
+    },
+    {
+      "width": 2560,
+      "height": 1080,
+      "neural_width": 2560,
+      "neural_height": 1080,
+      "input_to_output_change": 0.021581338718533516,
+      "finite_output": true
+    },
+    {
+      "width": 397,
+      "height": 257,
+      "neural_width": 397,
+      "neural_height": 257,
+      "input_to_output_change": 0.019141878932714462,
+      "finite_output": true
+    },
+    {
+      "width": 729,
+      "height": 973,
+      "neural_width": 729,
+      "neural_height": 973,
+      "input_to_output_change": 0.02493676356971264,
+      "finite_output": true
+    },
+    {
+      "width": 963,
+      "height": 541,
+      "neural_width": 963,
+      "neural_height": 541,
+      "input_to_output_change": 0.02164648286998272,
+      "finite_output": true
+    }
+  ],
+  "build_manifest_sha256": "48ef4031929b835ea7c3046d5e37eeeca4b539fc89cc6b83b76fb6a9fce87253",
+  "run_sha256": "a1e185a747f3c353ade75e315d1034ddb4801d36b353e5afb40eb97259c48514",
+  "checks": {
+    "room0_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807
+    },
+    "room0_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.022305933758616447,
+      "triangles": 72572
+    },
+    "room0_detail_nr_full": {
+      "native_to_nr_mean_change": 0.022535333409905434,
+      "triangles": 130807
+    },
+    "room0_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.022494792938232422,
+      "triangles": 77749
+    },
+    "room0_detail_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807
+    },
+    "room1_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807
+    },
+    "room1_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.02856285125017166,
+      "triangles": 78583
+    },
+    "animal0_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807
+    },
+    "animal0_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.015618383884429932,
+      "triangles": 73559
+    },
+    "animal1_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807
+    },
+    "animal1_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.014112825505435467,
+      "triangles": 73048
+    },
+    "person0_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 263751,
+      "face_pixels": 47421
+    },
+    "person0_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.02460762858390808,
+      "triangles": 85603,
+      "body_pixels": 263751,
+      "face_pixels": 47421
+    },
+    "person0_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.023566361516714096,
+      "triangles": 77749,
+      "body_pixels": 260472,
+      "face_pixels": 47430
+    },
+    "person1_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 348634,
+      "face_pixels": 45314
+    },
+    "person1_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.019649673253297806,
+      "triangles": 87934,
+      "body_pixels": 348634,
+      "face_pixels": 45314
+    },
+    "person1_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.018782060593366623,
+      "triangles": 77749,
+      "body_pixels": 346224,
+      "face_pixels": 45312
+    },
+    "person2_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 268272,
+      "face_pixels": 53927
+    },
+    "person2_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.017870379611849785,
+      "triangles": 81647,
+      "body_pixels": 268272,
+      "face_pixels": 53927
+    },
+    "person2_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.017636502161622047,
+      "triangles": 77749,
+      "body_pixels": 266465,
+      "face_pixels": 53715
+    },
+    "person3_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 262491,
+      "face_pixels": 62956
+    },
+    "person3_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.018777353689074516,
+      "triangles": 77624,
+      "body_pixels": 262491,
+      "face_pixels": 62956
+    },
+    "person3_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.018241237848997116,
+      "triangles": 77749,
+      "body_pixels": 258371,
+      "face_pixels": 62948
+    },
+    "person4_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 316068,
+      "face_pixels": 32882
+    },
+    "person4_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.03457781672477722,
+      "triangles": 85276,
+      "body_pixels": 316068,
+      "face_pixels": 32882
+    },
+    "person4_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.03279135748744011,
+      "triangles": 77749,
+      "body_pixels": 314949,
+      "face_pixels": 33071
+    },
+    "person5_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 358157,
+      "face_pixels": 18606
+    },
+    "person5_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.01647319085896015,
+      "triangles": 84553,
+      "body_pixels": 358157,
+      "face_pixels": 18606
+    },
+    "person5_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.015874434262514114,
+      "triangles": 77749,
+      "body_pixels": 356609,
+      "face_pixels": 18711
+    },
+    "person6_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 263165,
+      "face_pixels": 46782
+    },
+    "person6_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.02265057899057865,
+      "triangles": 74174,
+      "body_pixels": 263165,
+      "face_pixels": 46782
+    },
+    "person6_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.021717632189393044,
+      "triangles": 77749,
+      "body_pixels": 260375,
+      "face_pixels": 46519
+    },
+    "person7_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 362613,
+      "face_pixels": 51069
+    },
+    "person7_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.024935202673077583,
+      "triangles": 83391,
+      "body_pixels": 362613,
+      "face_pixels": 51069
+    },
+    "person7_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.024807434529066086,
+      "triangles": 77749,
+      "body_pixels": 359009,
+      "face_pixels": 50915
+    },
+    "person8_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 363006,
+      "face_pixels": 71594
+    },
+    "person8_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.020351216197013855,
+      "triangles": 90832,
+      "body_pixels": 363006,
+      "face_pixels": 71594
+    },
+    "person8_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.020333945751190186,
+      "triangles": 77749,
+      "body_pixels": 363388,
+      "face_pixels": 71439
+    },
+    "person9_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 332676,
+      "face_pixels": 48236
+    },
+    "person9_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.023363981395959854,
+      "triangles": 87567,
+      "body_pixels": 332676,
+      "face_pixels": 48236
+    },
+    "person9_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.021337363868951797,
+      "triangles": 77749,
+      "body_pixels": 332073,
+      "face_pixels": 48212
+    },
+    "person10_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 346439,
+      "face_pixels": 49379
+    },
+    "person10_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.028978075832128525,
+      "triangles": 83164,
+      "body_pixels": 346439,
+      "face_pixels": 49379
+    },
+    "person10_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.02804751880466938,
+      "triangles": 77749,
+      "body_pixels": 344205,
+      "face_pixels": 49550
+    },
+    "person11_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 375191,
+      "face_pixels": 40406
+    },
+    "person11_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.024276815354824066,
+      "triangles": 83529,
+      "body_pixels": 375191,
+      "face_pixels": 40406
+    },
+    "person11_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.024134436622262,
+      "triangles": 77749,
+      "body_pixels": 370736,
+      "face_pixels": 40607
+    },
+    "person12_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 287376,
+      "face_pixels": 49817
+    },
+    "person12_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.016927530989050865,
+      "triangles": 76300,
+      "body_pixels": 287376,
+      "face_pixels": 49817
+    },
+    "person12_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.01630554161965847,
+      "triangles": 77749,
+      "body_pixels": 283967,
+      "face_pixels": 50051
+    },
+    "person13_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 371271,
+      "face_pixels": 62640
+    },
+    "person13_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.013250266201794147,
+      "triangles": 82678,
+      "body_pixels": 371271,
+      "face_pixels": 62640
+    },
+    "person13_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.012642544694244862,
+      "triangles": 77749,
+      "body_pixels": 369261,
+      "face_pixels": 62703
+    },
+    "person14_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 199442,
+      "face_pixels": 33842
+    },
+    "person14_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.04111184552311897,
+      "triangles": 81025,
+      "body_pixels": 199442,
+      "face_pixels": 33842
+    },
+    "person14_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.03947357460856438,
+      "triangles": 77749,
+      "body_pixels": 197209,
+      "face_pixels": 33810
+    },
+    "person15_beauty_off": {
+      "native_to_nr_mean_change": 0.0,
+      "triangles": 130807,
+      "body_pixels": 240517,
+      "face_pixels": 33209
+    },
+    "person15_detail_nr_distance": {
+      "native_to_nr_mean_change": 0.02599181793630123,
+      "triangles": 83529,
+      "body_pixels": 240517,
+      "face_pixels": 33209
+    },
+    "person15_detail_nr_reduced": {
+      "native_to_nr_mean_change": 0.02575151063501835,
+      "triangles": 77749,
+      "body_pixels": 235896,
+      "face_pixels": 33138
+    }
+  },
+  "clips": {
+    "room": {
+      "frames": 48,
+      "fps": 24,
+      "mean_absolute_motion_pixels": 0.20926439353176343,
+      "mean_frame_difference": 0.004145234798457712
+    },
+    "guide": {
+      "frames": 48,
+      "fps": 24,
+      "mean_absolute_motion_pixels": 0.3047927072566381,
+      "mean_frame_difference": 0.001990194392806672
+    },
+    "face": {
+      "frames": 48,
+      "fps": 24,
+      "mean_absolute_motion_pixels": 14.438547784243534,
+      "mean_frame_difference": 0.02421134086127611
+    }
+  },
+  "limit": "Image change and geometric agreement do not establish perceived quality, identity preservation or temporal equivalence."
+}

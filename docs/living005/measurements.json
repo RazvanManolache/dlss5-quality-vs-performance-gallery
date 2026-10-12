@@ -1,0 +1,67 @@
+{
+  "beauty_off": {
+    "processing_gpu_ms": 39.34849822222222,
+    "frame_wall_ms": 42.42687152777777,
+    "network_gpu_ms": 0.000372,
+    "gbuffer_gpu_ms": 2.161253777777778,
+    "actor_triangles": 130807.0,
+    "gpu_p95_ms": 44.686264,
+    "repeat_gpu_means": [
+      38.05633,
+      40.425581333333334,
+      39.563583333333334
+    ]
+  },
+  "detail_nr_distance": {
+    "processing_gpu_ms": 6.999003333333333,
+    "frame_wall_ms": 10.949594444444443,
+    "network_gpu_ms": 3.9271664444444445,
+    "gbuffer_gpu_ms": 1.9040148888888888,
+    "actor_triangles": 72572.0,
+    "gpu_p95_ms": 7.5428416,
+    "repeat_gpu_means": [
+      6.9783426666666655,
+      6.938454,
+      7.080213333333333
+    ]
+  },
+  "detail_nr_full": {
+    "processing_gpu_ms": 7.268808444444444,
+    "frame_wall_ms": 10.749956944444444,
+    "network_gpu_ms": 3.960571111111111,
+    "gbuffer_gpu_ms": 2.1498864444444448,
+    "actor_triangles": 130807.0,
+    "gpu_p95_ms": 7.7567616,
+    "repeat_gpu_means": [
+      7.165274666666666,
+      7.257009333333333,
+      7.384141333333333
+    ]
+  },
+  "detail_nr_reduced": {
+    "processing_gpu_ms": 7.070423999999999,
+    "frame_wall_ms": 10.645310416666668,
+    "network_gpu_ms": 3.978692,
+    "gbuffer_gpu_ms": 1.9335220000000004,
+    "actor_triangles": 77749.0,
+    "gpu_p95_ms": 7.6142144,
+    "repeat_gpu_means": [
+      7.137958,
+      7.012415999999999,
+      7.060897999999999
+    ]
+  },
+  "detail_off": {
+    "processing_gpu_ms": 3.2446784444444443,
+    "frame_wall_ms": 6.485175000000001,
+    "network_gpu_ms": 0.00011955555555555557,
+    "gbuffer_gpu_ms": 2.1381997777777775,
+    "actor_triangles": 130807.0,
+    "gpu_p95_ms": 3.6792736,
+    "repeat_gpu_means": [
+      3.2007526666666664,
+      3.2015860000000003,
+      3.331696666666667
+    ]
+  }
+}

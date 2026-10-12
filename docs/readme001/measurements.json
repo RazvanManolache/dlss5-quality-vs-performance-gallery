@@ -1,0 +1,338 @@
+[
+  {
+    "quality_index": 0,
+    "quality": "very_light",
+    "label": "Very light",
+    "mode": "off",
+    "fps": 152.6367521951868,
+    "frame_wall_ms": 6.551502083333333,
+    "gpu_ms": 3.162071777777778,
+    "network_gpu_ms": 8.133333333333335e-05,
+    "repeat_fps": [
+      171.77930796558545,
+      122.78538649258428,
+      175.78425412543672
+    ],
+    "gpu_p95_ms": 3.4515312
+  },
+  {
+    "quality_index": 5,
+    "quality": "room_bounce_contact",
+    "label": "Room bounce + contact",
+    "mode": "off",
+    "fps": 139.28216487042647,
+    "frame_wall_ms": 7.179670138888889,
+    "gpu_ms": 3.272240666666667,
+    "network_gpu_ms": 7.000000000000002e-05,
+    "repeat_fps": [
+      123.24985210017748,
+      132.56932892577137,
+      170.00478138447642
+    ],
+    "gpu_p95_ms": 3.2881888
+  },
+  {
+    "quality_index": 4,
+    "quality": "soft_shadows",
+    "label": "Light + detail + soft shadows",
+    "mode": "off",
+    "fps": 134.7540654085004,
+    "frame_wall_ms": 7.420926388888889,
+    "gpu_ms": 3.2729537777777775,
+    "network_gpu_ms": 6.622222222222224e-05,
+    "repeat_fps": [
+      135.46781693895227,
+      121.00271928402691,
+      151.13331091522556
+    ],
+    "gpu_p95_ms": 3.2903984
+  },
+  {
+    "quality_index": 6,
+    "quality": "sparse_gi_reflections",
+    "label": "Sparse GI + reflections",
+    "mode": "off",
+    "fps": 131.40202769753992,
+    "frame_wall_ms": 7.610232638888888,
+    "gpu_ms": 3.4868086666666667,
+    "network_gpu_ms": 7.6e-05,
+    "repeat_fps": [
+      117.33806857627856,
+      122.10270007226956,
+      163.43908523143995
+    ],
+    "gpu_p95_ms": 3.6451696
+  },
+  {
+    "quality_index": 3,
+    "quality": "light_detail",
+    "label": "Light + detail",
+    "mode": "off",
+    "fps": 121.46344216092236,
+    "frame_wall_ms": 8.232929861111112,
+    "gpu_ms": 3.179193555555555,
+    "network_gpu_ms": 7.844444444444445e-05,
+    "repeat_fps": [
+      147.58749786305603,
+      95.20103483524865,
+      134.78795748226204
+    ],
+    "gpu_p95_ms": 3.617371199999999
+  },
+  {
+    "quality_index": 0,
+    "quality": "very_light",
+    "label": "Very light",
+    "mode": "full_frame",
+    "fps": 95.02469190223333,
+    "frame_wall_ms": 10.523580555555554,
+    "gpu_ms": 7.130370222222222,
+    "network_gpu_ms": 3.893518444444444,
+    "repeat_fps": [
+      95.08868902214952,
+      89.78640375711207,
+      100.83999717648007
+    ],
+    "gpu_p95_ms": 7.4202144
+  },
+  {
+    "quality_index": 0,
+    "quality": "very_light",
+    "label": "Very light",
+    "mode": "protected",
+    "fps": 93.18537911047825,
+    "frame_wall_ms": 10.731297222222222,
+    "gpu_ms": 7.152049999999999,
+    "network_gpu_ms": 3.905657555555555,
+    "repeat_fps": [
+      94.37961526149839,
+      86.06355004254767,
+      100.20981429868789
+    ],
+    "gpu_p95_ms": 7.4111968
+  },
+  {
+    "quality_index": 4,
+    "quality": "soft_shadows",
+    "label": "Light + detail + soft shadows",
+    "mode": "protected",
+    "fps": 82.5170874837566,
+    "frame_wall_ms": 12.118702083333334,
+    "gpu_ms": 7.2351751111111104,
+    "network_gpu_ms": 3.8751762222222226,
+    "repeat_fps": [
+      82.00317352281533,
+      77.72393236463405,
+      88.53156565307246
+    ],
+    "gpu_p95_ms": 7.5354208
+  },
+  {
+    "quality_index": 4,
+    "quality": "soft_shadows",
+    "label": "Light + detail + soft shadows",
+    "mode": "full_frame",
+    "fps": 81.96117146419364,
+    "frame_wall_ms": 12.200899305555556,
+    "gpu_ms": 7.254862666666668,
+    "network_gpu_ms": 3.8839704444444445,
+    "repeat_fps": [
+      78.07728186956052,
+      75.54585420877758,
+      94.71597343453736
+    ],
+    "gpu_p95_ms": 7.6475088
+  },
+  {
+    "quality_index": 6,
+    "quality": "sparse_gi_reflections",
+    "label": "Sparse GI + reflections",
+    "mode": "full_frame",
+    "fps": 81.5972479968159,
+    "frame_wall_ms": 12.255315277777777,
+    "gpu_ms": 7.472418,
+    "network_gpu_ms": 3.884366444444445,
+    "repeat_fps": [
+      74.44744870919757,
+      77.60667482075688,
+      95.71060940141388
+    ],
+    "gpu_p95_ms": 7.7429296
+  },
+  {
+    "quality_index": 3,
+    "quality": "light_detail",
+    "label": "Light + detail",
+    "mode": "full_frame",
+    "fps": 80.10467901443207,
+    "frame_wall_ms": 12.48366527777778,
+    "gpu_ms": 7.176832666666666,
+    "network_gpu_ms": 3.903850888888889,
+    "repeat_fps": [
+      80.96255026635835,
+      71.44288126758723,
+      90.0705308550677
+    ],
+    "gpu_p95_ms": 7.6057824
+  },
+  {
+    "quality_index": 5,
+    "quality": "room_bounce_contact",
+    "label": "Room bounce + contact",
+    "mode": "full_frame",
+    "fps": 78.76568052399307,
+    "frame_wall_ms": 12.695884722222221,
+    "gpu_ms": 7.219045111111111,
+    "network_gpu_ms": 3.8633657777777777,
+    "repeat_fps": [
+      73.25667429350044,
+      71.51914105511591,
+      95.65030249408164
+    ],
+    "gpu_p95_ms": 7.2650224
+  },
+  {
+    "quality_index": 6,
+    "quality": "sparse_gi_reflections",
+    "label": "Sparse GI + reflections",
+    "mode": "protected",
+    "fps": 78.60525456475452,
+    "frame_wall_ms": 12.721795833333333,
+    "gpu_ms": 7.4729771111111125,
+    "network_gpu_ms": 3.884252666666667,
+    "repeat_fps": [
+      79.72855086050362,
+      66.20793761446731,
+      95.06697468366464
+    ],
+    "gpu_p95_ms": 7.8204448
+  },
+  {
+    "quality_index": 3,
+    "quality": "light_detail",
+    "label": "Light + detail",
+    "mode": "protected",
+    "fps": 77.89563218634541,
+    "frame_wall_ms": 12.837690277777776,
+    "gpu_ms": 7.143923777777776,
+    "network_gpu_ms": 3.892996222222222,
+    "repeat_fps": [
+      84.22184454963596,
+      67.45437449347737,
+      84.63938069365147
+    ],
+    "gpu_p95_ms": 7.5046176
+  },
+  {
+    "quality_index": 5,
+    "quality": "room_bounce_contact",
+    "label": "Room bounce + contact",
+    "mode": "protected",
+    "fps": 76.39714461427718,
+    "frame_wall_ms": 13.089494444444446,
+    "gpu_ms": 7.240112444444445,
+    "network_gpu_ms": 3.8681171111111103,
+    "repeat_fps": [
+      62.21301815181454,
+      78.85681278505506,
+      95.11612390698198
+    ],
+    "gpu_p95_ms": 7.5259984
+  },
+  {
+    "quality_index": 1,
+    "quality": "middle",
+    "label": "Middle",
+    "mode": "off",
+    "fps": 72.51645128860979,
+    "frame_wall_ms": 13.789974305555555,
+    "gpu_ms": 10.564025777777779,
+    "network_gpu_ms": 0.00014022222222222225,
+    "repeat_fps": [
+      73.97214548040208,
+      68.1144197375154,
+      75.92932751292855
+    ],
+    "gpu_p95_ms": 11.1396336
+  },
+  {
+    "quality_index": 1,
+    "quality": "middle",
+    "label": "Middle",
+    "mode": "full_frame",
+    "fps": 54.0567406578315,
+    "frame_wall_ms": 18.499080555555555,
+    "gpu_ms": 14.488588222222221,
+    "network_gpu_ms": 3.886771777777778,
+    "repeat_fps": [
+      56.19054776653108,
+      50.08685896124863,
+      56.38460502936581
+    ],
+    "gpu_p95_ms": 14.8461376
+  },
+  {
+    "quality_index": 1,
+    "quality": "middle",
+    "label": "Middle",
+    "mode": "protected",
+    "fps": 53.82225670667367,
+    "frame_wall_ms": 18.579674305555557,
+    "gpu_ms": 14.471248,
+    "network_gpu_ms": 3.8745533333333335,
+    "repeat_fps": [
+      56.38267106796062,
+      49.35329701616135,
+      56.366588563712384
+    ],
+    "gpu_p95_ms": 14.808832
+  },
+  {
+    "quality_index": 2,
+    "quality": "beauty",
+    "label": "Beauty",
+    "mode": "off",
+    "fps": 23.929967752872834,
+    "frame_wall_ms": 41.788606249999994,
+    "gpu_ms": 37.183338666666664,
+    "network_gpu_ms": 0.00015822222222222225,
+    "repeat_fps": [
+      23.65916721998722,
+      23.25148471629047,
+      24.94331760986271
+    ],
+    "gpu_p95_ms": 39.065329600000005
+  },
+  {
+    "quality_index": 2,
+    "quality": "beauty",
+    "label": "Beauty",
+    "mode": "protected",
+    "fps": 21.55036853150536,
+    "frame_wall_ms": 46.40291875,
+    "gpu_ms": 41.351774444444445,
+    "network_gpu_ms": 3.890389777777778,
+    "repeat_fps": [
+      21.748396157728976,
+      20.635359272782424,
+      22.337460768671114
+    ],
+    "gpu_p95_ms": 43.577699200000005
+  },
+  {
+    "quality_index": 2,
+    "quality": "beauty",
+    "label": "Beauty",
+    "mode": "full_frame",
+    "fps": 21.170774715831968,
+    "frame_wall_ms": 47.23492708333333,
+    "gpu_ms": 41.67328777777778,
+    "network_gpu_ms": 3.902541555555555,
+    "repeat_fps": [
+      21.586790071749547,
+      20.495173642796793,
+      21.46467232433692
+    ],
+    "gpu_p95_ms": 44.9607344
+  }
+]

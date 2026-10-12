@@ -1,0 +1,5 @@
+# Preserve capture manifests and their checksummed bytes on every platform.
+docs/** -text
+*.jpg binary
+*.png binary
+*.webp binary

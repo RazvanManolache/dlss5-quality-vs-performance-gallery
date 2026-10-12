@@ -1,0 +1,8 @@
+{
+  "ngx_sdk": "C:/SDK/NGX/include",
+  "weight_source": {
+    "kind": "nvidia_dll",
+    "path": "C:/Models/nvngx_dlssnr.dll",
+    "sha256": "e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e"
+  }
+}
