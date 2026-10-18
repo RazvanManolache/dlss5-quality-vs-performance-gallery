@@ -2,8 +2,8 @@
 
 **Can cheaper rendering plus neural rendering produce an image we prefer, at a higher frame rate?**
 
-This standalone Windows gallery explores that question. Compare seven rendering
-budgets with DLSS5 off, applied to
+This standalone Windows gallery explores that question using **Phoenix DLSS5**.
+Compare seven rendering budgets with Phoenix DLSS5 off, applied to
 selected surfaces, or applied to the full frame. Sixteen animated people, detailed
 exhibits and two animals provide faces, clothing, hair, shadows and reflections to inspect.
 
@@ -150,7 +150,7 @@ all focus cameras and resizing have separate validation records there.
 
 ## Build and run
 
-[Phoenix](external/phoenix) is the backend dependency, maintained as a Git submodule.
+[Phoenix DLSS5](external/phoenix) is the backend dependency, maintained as a Git submodule.
 
 Requirements: Windows, an NVIDIA GPU compatible with the current backend `sm_120`
 kernels (tested on RTX 5080), VS C++ build tools, Windows SDK 10.0.26100.0,
@@ -243,7 +243,7 @@ python assets.py pack --output asset-packs/gallery-assets-v4.zip --manifest gall
 ```
 
 Review the fresh manifest before replacing `gallery_assets.json`, and publish the
-pack separately as a release asset. It contains no neural weights or NVIDIA binaries.
+pack separately as a release asset. It contains no neural weights or NVIDIA DLSS5 binaries.
 The original source manifest is [Rocketbox-crowd-sources.json](licenses/Rocketbox-crowd-sources.json).
 Attribution and licenses: [CREDITS.md](CREDITS.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md),
 and [licenses](licenses/).
