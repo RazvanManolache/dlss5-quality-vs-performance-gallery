@@ -9,7 +9,9 @@ integrity are checked on GitHub; GPU rendering and performance are not tested th
 
 ## First run
 
-You need Windows, a compatible NVIDIA driver/GPU, Python 3.11+ for setup, and your
+You need Windows with the optional **Graphics Tools** feature installed (the app
+requires the D3D12 debug layer), a compatible NVIDIA driver/GPU, Python 3.11+ for
+setup, and your
 own supported `nvngx_dlssnr.dll` as model data. This package does not download or
 distribute that DLL. Its required SHA-256 is
 `e16bcf15e16e13f527491cdf7845b2fe6521a738d8f7c9c721866a8496e1fc8e`.
