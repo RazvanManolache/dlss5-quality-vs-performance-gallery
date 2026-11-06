@@ -1,0 +1,58 @@
+name: Windows gallery package
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          submodules: recursive
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.13'
+      - name: Check out pinned NGX headers
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: NVIDIA/DLSS
+          ref: a291cc7d2cc642a51566f3dfd5376f635cd1b284
+          path: external/DLSS
+          persist-credentials: false
+      - name: Verify source contracts
+        run: python -m unittest test_assets test_phoenix_dependency -v
+      - name: Install hash-pinned CUDA compiler
+        run: python tools/install_cuda.py "$env:RUNNER_TEMP/cuda"
+      - name: Compile Windows app, shader and 41 native kernels
+        run: python build.py gallery_desktop --compile-only --ngx-sdk external/DLSS/include
+      - name: Package and verify portable output
+        run: python tools/package.py
+      - name: Check extracted package in a different directory
+        run: |
+          python -m zipfile -e dist/DLSS5-Gallery-windows-x64.zip "$env:RUNNER_TEMP/extracted-gallery"
+          if ($LASTEXITCODE) { throw 'Extraction failed' }
+          python "$env:RUNNER_TEMP/extracted-gallery/DLSS5-Gallery/runtime_setup.py" --verify-package
+          if ($LASTEXITCODE) { throw 'Package verification failed' }
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: DLSS5-Gallery-windows-x64
+          path: |
+            dist/*.zip
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30
+      - name: Show compiler diagnostics on failure
+        if: failure()
+        run: |
+          Get-ChildItem gallery_desktop,external/phoenix/build -Recurse -Filter *.log -ErrorAction SilentlyContinue | ForEach-Object { Get-Content -LiteralPath $_.FullName -Tail 30 }
