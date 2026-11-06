@@ -29,9 +29,9 @@ def main():
     model=args.model.expanduser().resolve()
     expected=json.loads((ROOT/'kernels/native_graph.json').read_text())['supported_dll_sha256']
     if digest(model)!=expected:parser.error('Model hash does not match this pinned runtime; see BUILDING.md')
-    prepare(source=args.asset_pack,offline=args.offline)
     config=ROOT/'local.json'
     if config.exists():parser.error('local.json already exists; preserve or rename it before configuring again')
+    prepare(source=args.asset_pack,offline=args.offline)
     config.write_text(json.dumps({'bundle':'kernels','weight_source':{'kind':'nvidia_dll','path':str(model),'sha256':expected}},indent=2)+'\n')
     print('Setup complete. Run RUN.cmd to open the gallery.')
 if __name__=='__main__':main()

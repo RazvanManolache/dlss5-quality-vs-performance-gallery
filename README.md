@@ -247,3 +247,9 @@ pack separately as a release asset. It contains no neural weights or NVIDIA DLSS
 The original source manifest is [Rocketbox-crowd-sources.json](licenses/Rocketbox-crowd-sources.json).
 Attribution and licenses: [CREDITS.md](CREDITS.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md),
 and [licenses](licenses/).
+
+
+## GitHub builds
+
+See [BUILDING.md](BUILDING.md) for the manual build button, downloadable package,
+installation steps and what the checks cover.

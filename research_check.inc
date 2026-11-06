@@ -57,7 +57,7 @@ void researchCheck(const fs::path& out){
  auto selectControl=[&](HWND control,unsigned value,unsigned id){SendMessageW(control,CB_SETCURSEL,value,0);panelCommand(id,CBN_SELCHANGE);};
  selectControl(viewCombo,2,ID_VIEW);selectControl(qualityCombo[0],2,ID_LEFT_QUALITY);selectControl(phoenixCombo[0],0,ID_LEFT_PHOENIX);selectControl(phoenixCombo[1],2,ID_RIGHT_PHOENIX);
  for(unsigned q:{5u,6u}){selectControl(qualityCombo[1],q,ID_RIGHT_QUALITY);for(unsigned i=0;i<17;++i)renderComparison({},false);
-  ensure(peer->detailFlags==(q==5?(127|512|1024):(127|128|256|1024|16384)),"Research panel flags");ensure(peer->giCount()==(q==6?1u:0u),"Research panel indirect samples");
+  ensure(peer->detailFlags==(q==5?(127u|512u|1024u):(127u|128u|256u|1024u|16384u)),"Research panel flags");ensure(peer->giCount()==(q==6?1u:0u),"Research panel indirect samples");
   ensure(!IsWindowVisible(window)&&!IsWindowVisible(panel)&&!IsWindowVisible(peer->window),"Research panel revealed a window");
  }
  report["research_ui"]={{"passed",true},{"quality_choices",{5,6}},{"windows_hidden",true},{"presentation",false},{"frames",std::move(report["frames"])}};

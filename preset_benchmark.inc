@@ -1,5 +1,5 @@
 // Sustained cost of all 21 quality/Phoenix choices in the current living scene.
-void presetBenchmark(const fs::path& out){
+void presetBenchmark(const fs::path&){
  clientSize(1920,1080);ensure(!IsWindowVisible(window),"Preset timing must stay hidden");
  deterministicAnimation=true;animation=false;movingLight=false;livingAnimation=true;
  facialAnimation=true;characterDetail=0;focusPerson=focusAnimal=-1;yaw=.18f;cameraRadius=9.5f;lightPhase=.63f;

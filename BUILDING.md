@@ -34,3 +34,7 @@ come from NVIDIA's [CUDA redistribution manifest](https://developer.download.nvi
 inputs without creating a local model configuration or downloading scene assets.
 The executable links the C++ runtime statically. Model data and generated local
 configuration are excluded from the downloadable package.
+
+Two guarded fixes are applied to the pinned Phoenix headers before compiling:
+a signed file-size comparison and a shadowed variable. BUILDINFO records the actual
+patched dependency source hash. Compiler warnings fail the Windows build.

@@ -17,7 +17,7 @@ void detailReview(const fs::path& out){
  ensure(peer->network->program_steps()==154,"Full Phoenix network required");
  SetWindowTextW(panelStats,L"Offline capture  |  1920 x 1080");layoutPanel();saveHiddenControls(out);
  // Drive actual native dropdowns through independent presets, scopes and single views.
- for(unsigned quality=0;quality<5;++quality){select(1,quality,quality%3);renderComparison({},false);ensure(peer->detailFlags==(quality==3?119:quality==4?127:0),"Quality dropdown mapping");}
+ for(unsigned quality=0;quality<5;++quality){select(1,quality,quality%3);renderComparison({},false);ensure(peer->detailFlags==(quality==3?119u:quality==4?127u:0u),"Quality dropdown mapping");}
  select(1,3,1);SendMessageW(panelHeader,BM_CLICK,0,0);ensure(!panelExpanded,"Collapse control");renderComparison({},false);SendMessageW(panelHeader,BM_CLICK,0,0);ensure(panelExpanded,"Expand control");
  unsigned before[2]{serial,peer->serial};panelView=0;renderComparison({},false);ensure(serial==before[0]+1&&peer->serial==before[1],"Left single view must skip right work");
  before[0]=serial;before[1]=peer->serial;panelView=1;renderComparison({},false);ensure(serial==before[0]&&peer->serial==before[1]+1,"Right single view must skip left work");

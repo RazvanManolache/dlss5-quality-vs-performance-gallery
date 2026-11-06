@@ -3,6 +3,7 @@ import argparse,json,os,subprocess,sys,shutil
 from assets import prepare
 from phoenix_dependency import identity
 from gallery_catalog import generate
+from tools.prepare_phoenix import prepare as prepare_phoenix
 generate()
 ROOT=Path(__file__).resolve().parent;EDITION=ROOT/'external/phoenix'
 parser=argparse.ArgumentParser()
@@ -29,7 +30,9 @@ if not (sdk/'nvsdk_ngx.h').exists():parser.error('NGX include directory must con
 assert name.replace('_','').isalnum()
 if (ROOT/name).exists():parser.error('Choose a fresh build name')
 if not args.compile_only and 'weight_source' not in local:parser.error('Configure your external model in local.json; see local.example.json')
-try:dependency=identity(EDITION)
+try:
+    prepare_phoenix(EDITION)
+    dependency=identity(EDITION)
 except (OSError,RuntimeError,subprocess.CalledProcessError) as error:parser.exit(1,f'Phoenix dependency unavailable: {error}\n')
 bundle=EDITION/'build'/dependency['kernel_build']
 if not (bundle/'native_manifest.json').is_file():
@@ -50,7 +53,7 @@ vswhere=Path(os.environ['ProgramFiles(x86)'])/'Microsoft Visual Studio/Installer
 install=subprocess.check_output([str(vswhere),'-latest','-products','*','-requires','Microsoft.VisualStudio.Component.VC.Tools.x86.x64','-property','installationPath'],text=True).strip()
 assert install
 batch='\n'.join(['@echo off','setlocal',f'call "{install}/VC/Auxiliary/Build/vcvars64.bat" > "{out}/toolchain.log" 2>&1','if errorlevel 1 exit /b 5',
- f'cl /nologo /std:c++17 /O2 /W4 /EHsc /MT /DNOMINMAX /I"{sdk}" /I"{EDITION}/third_party/nvapi" /sourceDependencies "{out}/dependencies.json" "{ROOT}/scene.cpp" /Fo:"{out}/scene.obj" /Fe:"{out}/scene_lab.exe" /link /INCREMENTAL:NO d3d12.lib dxgi.lib d3dcompiler.lib user32.lib bcrypt.lib psapi.lib gdi32.lib windowscodecs.lib ole32.lib uxtheme.lib > "{out}/compile.log" 2>&1',
+ f'cl /nologo /std:c++17 /O2 /W4 /WX /EHsc /MT /DNOMINMAX /I"{sdk}" /I"{EDITION}/third_party/nvapi" /sourceDependencies "{out}/dependencies.json" "{ROOT}/scene.cpp" /Fo:"{out}/scene.obj" /Fe:"{out}/scene_lab.exe" /link /INCREMENTAL:NO d3d12.lib dxgi.lib d3dcompiler.lib user32.lib bcrypt.lib psapi.lib gdi32.lib windowscodecs.lib ole32.lib uxtheme.lib > "{out}/compile.log" 2>&1',
  'exit /b %errorlevel%'])
 (out/'build.cmd').write_text(batch)
 r=subprocess.run(['cmd','/c',str(out/'build.cmd')],cwd=ROOT)
