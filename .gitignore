@@ -26,3 +26,6 @@
 /dist/
 /gallery_desktop/
 /external/DLSS/
+
+__pycache__/
+*.pyc
